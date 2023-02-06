@@ -1,4 +1,5 @@
 import Metody
+import sipkaTree
 
 class RoztahujData():
 
@@ -126,6 +127,8 @@ class RoztahujData():
             cisloRadkuOdkudVkladatKod = cisloRadkuOdkudVkladatKod + 1
 
         print("")
+
+        dataTree = sipkaTree.konvertujData(poleRadkuN)
 
         self.vytvorDekod(poleRadkuN)
 
