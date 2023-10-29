@@ -1,0 +1,1002 @@
+public class TextReader {
+
+  
+
+    public static void main(String[] args) throws IOException {
+
+        
+
+       String adresaSlozkyABC;
+
+       String[] nazvySouboruABC;
+
+       
+
+       String adresaSlozkyData;
+
+       String nazevSouboruData;
+
+       
+
+       String adresaProjektu;
+
+       
+
+       pathOfProject cestaKProjektu = new pathOfProject();
+
+       adresaProjektu = cestaKProjektu.getAdresaProjektu();
+
+    
+
+    public String getAdresaProjektu(){
+
+        return(adresaProjektu);
+
+    }
+
+    public String getAdresaProjektu(){
+
+        return(adresaProjektu);
+
+    }
+
+       
+
+       //data pismen abecedy
+
+       ArrayList<ArrayList<HashMap<String, Integer>>> MapaPismenAbeceda = new ArrayList<ArrayList<HashMap<String, Integer>>>();
+
+       
+
+       //data pismen zkoumaneho obrazku
+
+       ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>> MapaVsechPismenNaVsechRadcich = new ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>>();
+
+       
+
+       //data obdsahuji posouzeni vsech pismen vsech radku z obrazku vuci vsem pismenum abecedy
+
+       ArrayList<ArrayList<ArrayList<HashMap<String, Double>>>> posouzeniPismenePngVsechRadkuKeVsemPismenABC = new ArrayList<ArrayList<ArrayList<HashMap<String, Double>>>>();
+
+       
+
+       //obshuje pole pismen v celem obrazku - radcich + sloupcich
+
+       ArrayList<ArrayList<String>> pismenaVPng = new ArrayList<ArrayList<String>>();
+
+       
+
+       
+
+        
+
+       //inicializuje tridu
+
+       SouradniceSkupinyPismen SouradnicePismena = new SouradniceSkupinyPismen();
+
+       
+
+       //ziska vstupni data originalni pro porovnavani
+
+       zdrojDataAbeceda dataAbecedy = new zdrojDataAbeceda(adresaProjektu);
+
+       SouradnicePismena.nactiDataAbecedy(dataAbecedy.getAdresaSlozky(), dataAbecedy.getNazvySouboruPng()); 
+
+        NazvySouboruPng[22] = "w.png";
+
+    public void nactiDataAbecedy(String adresaSlozky, String[] NazvySouboruPng) throws IOException{
+
+        
+
+        String nazevZdrojPng;
+
+        String celaAdresaZdrojPng;
+
+        
+
+        NactiPng novyObrazek;
+
+        
+
+        ArrayList<HashMap<String, Integer>> souradniceVsechBarevObrazku;
+
+        ArrayList<HashMap<String, Integer>> souradniceObrazkuModifikovane = new ArrayList<HashMap<String, Integer>>();
+
+        
+
+        for (int i = 0; i < NazvySouboruPng.length; i++) {
+
+            nazevZdrojPng = NazvySouboruPng[i];
+
+            
+
+            celaAdresaZdrojPng = adresaSlozky + nazevZdrojPng;
+
+            novyObrazek = new NactiPng(adresaSlozky, nazevZdrojPng);
+
+            
+
+            //nacte data z jednoho obrazku
+
+            souradniceVsechBarevObrazku = novyObrazek.getSouradniceVsechBarev();
+
+            
+
+            //inicializuje tridu pro ziskani souradnic, ktere jsou pouze cerne
+
+            SouradniceJednohoPismene souradniceCerne = new SouradniceJednohoPismene(souradniceVsechBarevObrazku);
+
+            souradniceObrazkuModifikovane = souradniceCerne.getSouradnicePismeneCernobile(0, 0, 0);
+
+    public SouradniceJednohoPismene(ArrayList<HashMap<String, Integer>> souradniceVsechBarev){
+
+        
+
+        this.souradniceVsechBarev = souradniceVsechBarev;
+
+          
+
+    }
+
+            
+
+            //re-inicializuje tridu pro ziskani souradnic, ktere jsou vztazene k nule
+
+            SouradniceJednohoPismene souradniceKNule = new SouradniceJednohoPismene(souradniceObrazkuModifikovane);
+
+            souradniceObrazkuModifikovane = souradniceKNule.getSouradniceVztazeneKNule();
+
+    public SouradniceJednohoPismene(ArrayList<HashMap<String, Integer>> souradniceVsechBarev){
+
+        
+
+        this.souradniceVsechBarev = souradniceVsechBarev;
+
+          
+
+    }
+
+            
+
+            //zapise souradnice do pole
+
+            MapaPismenAbeceda.add(souradniceObrazkuModifikovane);
+
+            
+
+            System.out.print("");
+
+        }
+
+        
+
+        System.out.print("");
+
+        
+
+    }
+
+        NazvySouboruPng[23] = "x.png";
+
+        NazvySouboruPng[24] = "y.png";
+
+        NazvySouboruPng[25] = "z.png";
+
+        
+
+    }
+
+    
+
+    public String getAdresaSlozky(){
+
+        
+
+        return (adresaSlozky);
+
+        
+
+    }
+
+    
+
+    public String[] getNazvySouboruPng(){
+
+        
+
+        return (NazvySouboruPng);
+
+        
+
+    }
+
+    
+
+       MapaPismenAbeceda = SouradnicePismena.getMapaPismenAbeceda();
+
+       
+
+       //ziska data zkoumaneho obrazku
+
+       zdrojDataZkoum zkoumanaData = new zdrojDataZkoum(adresaProjektu);
+
+       SouradnicePismena.nactiDataZkoumanehoObrazku(zkoumanaData.getAdresaSlozky(), zkoumanaData.getNazevSouboruPng());
+
+       MapaVsechPismenNaVsechRadcich = SouradnicePismena.getMapaVsechPismenNaVsechRadcich();
+
+    public void nactiDataZkoumanehoObrazku(String adresaSlozky, String NazevSouboruPng) throws IOException{
+
+        
+
+        String celaAdresaZdrojPng;
+
+        ArrayList<HashMap<String, Integer>> souradniceVsechBarevObrazku;
+
+        ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>> souradniceVsechBarevVsechRadkuText;
+
+        ArrayList<ArrayList<HashMap<String, Integer>>> souradniceVsechBarevJednohoRadkuText;
+
+        
+
+        //celaAdresaZdrojPng = adresaSlozky + NazevSouboruPng;
+
+        NactiPng novyObrazek = new NactiPng(adresaSlozky, NazevSouboruPng);
+
+        
+
+        //nacte data z jednoho obrazku
+
+        souradniceVsechBarevObrazku = novyObrazek.getSouradniceVsechBarev();
+
+        
+
+        //mapa vsech pismen na jednom radku
+
+        ArrayList<ArrayList<HashMap<String, Integer>>> MapaVsechPismenNaRadku = new ArrayList<ArrayList<HashMap<String, Integer>>>();
+
+        
+
+        //vrati souradnice pixelu radku
+
+        VytvorRadkyPng pngRadky = new VytvorRadkyPng(souradniceVsechBarevObrazku);
+
+        
+
+    VytvorRadkyPng(ArrayList<HashMap<String, Integer>> souradniceVsechBarev) throws IOException{
+
+        
+
+        this.souradniceVsechBarev = souradniceVsechBarev; 
+
+                  
+
+        vratYSourPrvnihoAPoslednihoPixeluRadku();
+
+        vytvorSouradniceVsechBarevPoRadcich();
+
+    //vrati pole s jednotlivimi radky
+
+    private void vytvorSouradniceVsechBarevPoRadcich(){
+
+        
+
+        boolean yJeNaRadku;
+
+        boolean yJeNaRadkuPredchozi = false;
+
+        
+
+        //obsahuje data celeho jednoho pixeloveho radku
+
+        ArrayList<HashMap<String, Integer>> RGBJednohoPixRadku = new ArrayList<HashMap<String, Integer>>();
+
+        
+
+        //obsahuje data celeho jednoho radku s textem (nekolik RGBJednohoRadku - ktere jsou pod sebou)
+
+        ArrayList<ArrayList<HashMap<String, Integer>>> souradniceVsechBarevJednohoRadkuText = null;
+
+        
+
+        
+
+        for (int y = 0; y < yMax; y++) {
+
+            
+
+            yJeNaRadku = detekujZdaRadekJeMeziPrvnimAPoslednimPixelemNaRadku(y);
+
+            
+
+            if(yJeNaRadku == true){
+
+                if(yJeNaRadkuPredchozi == false){
+
+                    souradniceVsechBarevJednohoRadkuText = new ArrayList<ArrayList<HashMap<String, Integer>>>();
+
+                }
+
+                
+
+                RGBJednohoPixRadku = vratRGBUrciteYSouradnice(y);
+
+                souradniceVsechBarevJednohoRadkuText.add(RGBJednohoPixRadku);
+
+            }
+
+            
+
+            if(yJeNaRadku == false){
+
+                if(yJeNaRadkuPredchozi == true){
+
+                    souradniceVsechBarevVsechRadkuText.add(souradniceVsechBarevJednohoRadkuText);
+
+                }
+
+            }
+
+            
+
+            yJeNaRadkuPredchozi = yJeNaRadku;
+
+            
+
+        }
+
+        
+
+        
+
+        
+
+    }
+
+        
+
+        
+
+        System.out.print("");
+
+        
+
+    }
+
+        //Trida s daty s pismeny na jednom radku
+
+        RozdelRadekNaPismena PismenaNaRadku;
+
+        
+
+        
+
+        //---------------- Data rozdelena na jednotlive radky --------------------------------
+
+        //
+
+        //souradnice barev rozdelena na radky
+
+        souradniceVsechBarevVsechRadkuText = pngRadky.getSouradniceVsechBarevVsechRadkuText();
+
+        
+
+        
+
+        //data na jednotlivych radcich
+
+        for (int i = 0; i < souradniceVsechBarevVsechRadkuText.size(); i++) {
+
+            
+
+            souradniceVsechBarevJednohoRadkuText = souradniceVsechBarevVsechRadkuText.get(i);
+
+            
+
+            //Po jednotlivych radcich rozdeli data na jednotliva pismena
+
+            //Inicializuje tridu v kazdem cyklu zvlast
+
+            PismenaNaRadku = new RozdelRadekNaPismena(souradniceVsechBarevJednohoRadkuText);
+
+            MapaVsechPismenNaRadku = PismenaNaRadku.getMapaVsechPismenNaRadku(); 
+
+        
+
+            //prida data z jednoho radku do vsech radku
+
+            MapaVsechPismenNaVsechRadcich.add(MapaVsechPismenNaRadku);
+
+            System.out.print("");
+
+                    
+
+        } 
+
+        
+
+        //redukuje data vsech pismen
+
+        redukujDataMapyVsechPismen();
+
+        
+
+    //redukuje data, s tim, ze vrati pouze souradnice RGB s cernou barvou a vztazene k nule
+
+    private void redukujDataMapyVsechPismen() throws IOException{
+
+        
+
+        ArrayList<ArrayList<HashMap<String, Integer>>> MapaVsechPismenNaRadku = new ArrayList<ArrayList<HashMap<String, Integer>>>();
+
+        ArrayList<HashMap<String, Integer>> MapaPismene = new ArrayList<HashMap<String, Integer>>(); 
+
+        
+
+        ArrayList<HashMap<String, Integer>> MapaPismeneModifikovane = new ArrayList<HashMap<String, Integer>>(); 
+
+        ArrayList<ArrayList<HashMap<String, Integer>>> MapaVsechPismenNaRadkuModifikovane = null;
+
+        ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>> MapaVsechPismenNaVsechRadcichModifikovane = new ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>>();
+
+        
+
+        for (int r = 0; r < MapaVsechPismenNaVsechRadcich.size(); r++) {
+
+            MapaVsechPismenNaRadku = MapaVsechPismenNaVsechRadcich.get(r);
+
+            MapaVsechPismenNaRadkuModifikovane = new ArrayList<ArrayList<HashMap<String, Integer>>>();
+
+            
+
+            for (int s = 0; s < MapaVsechPismenNaRadku.size(); s++) {
+
+                MapaPismene = MapaVsechPismenNaRadku.get(s);
+
+                
+
+                //MapaPismeneModifikovane = MapaPismene;
+
+                
+
+                //inicializuje tridu pro ziskani souradnic, ktere jsou pouze cerne
+
+                SouradniceJednohoPismene souradniceCerne = new SouradniceJednohoPismene(MapaPismene);
+
+                MapaPismeneModifikovane = souradniceCerne.getSouradnicePismeneCernobile(0, 0, 0);
+
+            
+
+                //re-inicializuje tridu pro ziskani souradnic, ktere jsou vztazene k nule
+
+                SouradniceJednohoPismene souradniceKNule = new SouradniceJednohoPismene(MapaPismeneModifikovane);
+
+                MapaPismeneModifikovane = souradniceKNule.getSouradniceVztazeneKNule();
+
+                
+
+                
+
+                
+
+                //zpetne posklada data
+
+                MapaVsechPismenNaRadkuModifikovane.add(MapaPismeneModifikovane);
+
+                
+
+                //Testuje data
+
+                //TestData test = new TestData(MapaPismeneModifikovane);
+
+                //test.TiskDoPng();
+
+                
+
+                
+
+                System.out.println();
+
+                
+
+            }
+
+            
+
+            MapaVsechPismenNaVsechRadcichModifikovane.add(MapaVsechPismenNaRadkuModifikovane);
+
+            System.out.println();
+
+            
+
+        }
+
+        
+
+        MapaVsechPismenNaVsechRadcich = MapaVsechPismenNaVsechRadcichModifikovane; 
+
+
+
+    }
+
+        System.out.print("");
+
+        
+
+    }
+
+       
+
+       ///////////////////////////////////////////////////////
+
+       //tiskne data do logu
+
+       convertArrayList csvOutput = new convertArrayList(MapaVsechPismenNaVsechRadcich, "mainResult2.txt");
+
+       ///////////////////////////////////////////////////////
+
+    public convertArrayList(ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>> data, String nazevTxt){
+
+        
+
+        this.nazevTxt = nazevTxt;
+
+                
+
+        tiskniListArrayListArrayListHashMap(data);
+
+        dataForTree vytvorDataProStrom = new dataForTree(poleRadku);
+
+    
+
+    public dataForTree(ArrayList<String> poleRadku){
+
+        
+
+        int poleOdsazeni[];
+
+        String poleStromuRadku[];
+
+        
+
+        int[][] poleVsechIndexuRadku;
+
+        int[][] startEndPole;
+
+        
+
+        poleOdsazeni = ziskejPoleOdsazeni(poleRadku);
+
+        indexPosledniUrovne = vratMaxItem(poleOdsazeni); 
+
+    //vrati maximalni polozku pole
+
+    private int vratMaxItem(int[] array){
+
+        
+
+        int item;
+
+        int itemMax;
+
+        
+
+        itemMax = 0;
+
+        
+
+        for (int i = 1; i < array.length; i++) {
+
+            
+
+            item = array[i];
+
+            if(item > itemMax){
+
+                itemMax = item;
+
+            }
+
+            
+
+        }
+
+        
+
+        return(itemMax);
+
+    }
+
+        
+
+        poleVsechIndexuRadku = vratPoleVsechIndexuRadku(poleOdsazeni);
+
+        startEndPole = vratStartEndPolePosledniUrovne(poleVsechIndexuRadku);
+
+    
+
+    
+
+    private int[][] vratCestuStartEnd(int[][] startEndPole, int[][] poleVsechIndexuRadku){
+
+        
+
+        int[] dataZakladniUrovne = poleVsechIndexuRadku[0];
+
+        int[][] pathStartEndPole = new int[startEndPole.length][3];
+
+        int itemStart;
+
+        int itemPrev;
+
+        int itemEnd;
+
+        
+
+        for (int i = 0; i < startEndPole.length; i++){
+
+            itemStart = startEndPole[i][0];
+
+            
+
+            if(itemStart > -1){
+
+                itemPrev = vratDataNejblizsihoNizsihoIndexu(dataZakladniUrovne, itemStart);
+
+                itemEnd = startEndPole[i][1];
+
+            }
+
+            else{
+
+                itemStart = -1;
+
+                itemPrev = -1;
+
+                itemEnd = -1;
+
+            }
+
+            
+
+            pathStartEndPole[i][0] = itemPrev;
+
+            pathStartEndPole[i][1] = itemStart;
+
+            pathStartEndPole[i][2] = itemEnd;
+
+            
+
+        }
+
+        
+
+        return(pathStartEndPole);
+
+        
+
+        
+
+    }
+
+    private int[][] vratStartEndPolePosledniUrovne(int[][] poleVsechIndexuRadku){
+
+    
+
+        int[] dataPredposledniUrovne = poleVsechIndexuRadku[indexPosledniUrovne-1];
+
+        int delkaPredposledniUrovne = dataPredposledniUrovne.length;
+
+        int[] koncoveIndexyPosledniUrovne;
+
+        
+
+        koncoveIndexyPosledniUrovne = vratPoleKoncovychIndexuPosledniUrovne(delkaPredposledniUrovne, poleVsechIndexuRadku);
+
+        
+
+        int[][] startEndPole = new int[koncoveIndexyPosledniUrovne.length][2];
+
+        int indexStart;
+
+        int indexEnd;
+
+        
+
+        for (int i = 0; i < koncoveIndexyPosledniUrovne.length; i++){
+
+            indexEnd = koncoveIndexyPosledniUrovne[i];
+
+            indexStart = vratIndexStart(dataPredposledniUrovne, indexEnd);
+
+            
+
+            startEndPole[i][0] = indexStart;
+
+            startEndPole[i][1] = indexEnd;
+
+        }
+
+        
+
+        return(startEndPole);
+
+        
+
+    }
+
+        pathStartEndPole = vratCestuStartEnd(startEndPole, poleVsechIndexuRadku);
+
+        
+
+        
+
+        
+
+        
+
+    }
+
+    ArrayList<String> poleRadku = new ArrayList<>();
+
+    String nazevTxt;
+
+    
+
+    public convertArrayList(ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>> data, String nazevTxt){
+
+        
+
+        this.nazevTxt = nazevTxt;
+
+                
+
+        tiskniListArrayListArrayListHashMap(data);
+
+        dataForTree vytvorDataProStrom = new dataForTree(poleRadku);
+
+
+
+        int[][] pathStartEndPole = vytvorDataProStrom.getPathStartEndPole();
+
+        String[] vetveLog;
+
+        String[] spojenaData;
+
+        
+
+        //tiskne log do txt
+
+        kresliVetve vetveVLogu = new kresliVetve(pathStartEndPole);
+
+        vetveLog = vetveVLogu.getVratVetve();
+
+        
+
+        logData ziskejKompletniLog = new logData(vetveLog, poleRadku);
+
+
+
+        int[][] pathStartEndPole = vytvorDataProStrom.getPathStartEndPole();
+
+        String[] vetveLog;
+
+    public int[][] getPathStartEndPole(){
+
+        return(pathStartEndPole);
+
+    }
+
+        String[] spojenaData;
+
+        
+
+        //tiskne log do txt
+
+        kresliVetve vetveVLogu = new kresliVetve(pathStartEndPole);
+
+        vetveLog = vetveVLogu.getVratVetve();
+
+    
+
+    public String[] getVratVetve(){
+
+        return(dataVetveTotNul);
+
+    }
+
+    public String[] getVratVetve(){
+
+        return(dataVetveTotNul);
+
+    }
+
+        
+
+        logData ziskejKompletniLog = new logData(vetveLog, poleRadku);
+
+        spojenaData = ziskejKompletniLog.getSpojenaData();
+
+    
+
+    public String[] getSpojenaData(){
+
+        return(spojenaData);
+
+    }
+
+    public String[] getSpojenaData(){
+
+        return(spojenaData);
+
+    }
+
+        
+
+        //vytiskne data do logu
+
+        tiskniDoLoguArr(spojenaData);
+
+         
+
+    
+
+    private void tiskniDoLoguArr(String[] poleStromuRadku){
+
+        
+
+        String text;
+
+        String adresaProjektu;
+
+        String adresaProjektuLog;
+
+        text = prevedArrNaText(poleStromuRadku);
+
+        
+
+        pathOfProject cestaKProjektu = new pathOfProject();
+
+        adresaProjektu = cestaKProjektu.getAdresaProjektu();
+
+        adresaProjektuLog = adresaProjektu + "\\InputOutput\\treeVariables\\" + nazevTxt;
+
+        
+
+        
+
+        try {
+
+                FileWriter myWriter = new FileWriter(adresaProjektuLog);
+
+                myWriter.write(text);
+
+                myWriter.close();
+
+                System.out.println("Successfully wrote to the file.");
+
+                
+
+            } catch (IOException e) {
+
+                System.out.println("An error occurred.");
+
+                e.printStackTrace();
+
+          }
+
+    }
+
+       
+
+       
+
+       //porovnavaData
+
+       PosouzeniSouradnic posouzeni = new PosouzeniSouradnic(MapaPismenAbeceda, MapaVsechPismenNaVsechRadcich);
+
+       posouzeniPismenePngVsechRadkuKeVsemPismenABC = posouzeni.getPosouzeni();
+
+    public PosouzeniSouradnic(ArrayList<ArrayList<HashMap<String, Integer>>> MapaPismenAbeceda, ArrayList<ArrayList<ArrayList<HashMap<String, Integer>>>> MapaVsechPismenNaVsechRadcich){
+
+        
+
+        this.MapaPismenAbeceda = MapaPismenAbeceda;
+
+        this.MapaVsechPismenNaVsechRadcich = MapaVsechPismenNaVsechRadcich;
+
+        
+
+        //zatim provizorne ziskavam data jakozto dilci mapy pismenek, ktere budou porovnavat
+
+        ArrayList<ArrayList<HashMap<String, Integer>>> MapaVsechPismenNaJednomRadku = new ArrayList<ArrayList<HashMap<String, Integer>>>();
+
+        ArrayList<HashMap<String, Integer>> MapaPismeneZVybranehoSloupce = new ArrayList<HashMap<String, Integer>>();
+
+        
+
+        //data obdsahuji posouzeni jednoho pismene z obrazku vuci vsem pismenum abecedy, ten s nejmensi odchylkaSqrt vyhrava
+
+        ArrayList<HashMap<String, Double>> posouzeniJednohoPismenePngKeVsemPismenumABC = new ArrayList<HashMap<String, Double>>();
+
+        
+
+        ArrayList<ArrayList<HashMap<String, Double>>> posouzeniVsechPismenPngKeVsemPismenumABC = new ArrayList<ArrayList<HashMap<String, Double>>>();
+
+        
+
+        //data obdsahuji posouzeni vsech pismen jednoho radku z obrazku vuci vsem pismenum abecedy
+
+        ArrayList<ArrayList<ArrayList<HashMap<String, Double>>>> posouzeniPismenePngJednohoRadkuKeVsemPismenABC = null;
+
+        
+
+        for (int r = 0; r < MapaVsechPismenNaVsechRadcich.size(); r++) {
+
+            MapaVsechPismenNaJednomRadku = MapaVsechPismenNaVsechRadcich.get(r);
+
+            posouzeniVsechPismenPngKeVsemPismenumABC = new ArrayList<ArrayList<HashMap<String, Double>>>();
+
+            
+
+            for (int s = 0; s < MapaVsechPismenNaJednomRadku.size(); s++) {
+
+                MapaPismeneZVybranehoSloupce = MapaVsechPismenNaJednomRadku.get(s);
+
+        
+
+                posouzeniJednohoPismenePngKeVsemPismenumABC = (provedPosouzeniProVsechnaPismenaAbecedy(MapaPismeneZVybranehoSloupce, MapaPismenAbeceda));
+
+                posouzeniVsechPismenPngKeVsemPismenumABC.add(posouzeniJednohoPismenePngKeVsemPismenumABC);
+
+                System.out.print("");
+
+            } 
+
+            
+
+            posouzeniPismenePngVsechRadkuKeVsemPismenABC.add(posouzeniVsechPismenPngKeVsemPismenumABC);
+
+        }    
+
+        
+
+        //posouzeniPismenePngVsechRadkuKeVsemPismenABC.add(posouzeniPismenePngJednohoRadkuKeVsemPismenABC);
+
+        System.out.print("");
+
+    }
+
+       
+
+       PorovnaniSouradnic porovnani = new PorovnaniSouradnic(posouzeniPismenePngVsechRadkuKeVsemPismenABC, adresaProjektu);
+
+       pismenaVPng = porovnani.getPismenaVPng();
+
+       System.out.print("");
+
+       
+
+       
+
+       createOutput vytvorVystup = new createOutput(pismenaVPng, adresaProjektu, "\\InputOutput\\outputs\\output.csv");
+
+       
+
+       
+
+       //testuje data - zakom./odkomentovat jeden nebo druhy radek, podle toho, co chci tisknout
+
+       //TestData test = new TestData(MapaPismenAbeceda, 0);
+
+       //TestData test = new TestData(MapaVsechPismenNaVsechRadcich, 0, 0);
+
+       
+
+       //test.TiskDoPng();
+
+        
+
+    }
+
+    
+
