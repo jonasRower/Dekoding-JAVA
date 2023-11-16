@@ -1,2 +1,0 @@
-TextReader.java
-main
