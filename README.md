@@ -587,3 +587,39 @@ Příklad, řádek kódu `.java` je následující:
 '`.
 Pak se vrací hodnota:  
 `radekSeZavorkou` = `'{'`
+
+
+### class `MetodyPredavajiciDataSamostatne():`
+Třída je v souboru: `mainProgram.metody.py`. 
+Obsahuje metody:   
+`def vratNazevInstanceATridy(self, radekKodu, koncovyStrednik, radekObsahujeKlicoveSlovo):`   
+`def vratNazevVolaneInstanceAMetody(self, radekKodu, koncovyStrednik, radekObsahujeKlicoveSlovo, r):`   
+`def zapisMetoduJakoKonstruktor(self, radekKodu, r):`   
+`def vratNazevVolaneMetody(self, radekKodu, koncovyStrednik, klicoveSlovo, r):`   
+`def dopisujIndexyOtevrenychAZavrenychZavorek(self):`   
+ 
+### Popis metod
+#### metoda `def vratNazevInstanceATridy(self, radekKodu, koncovyStrednik, radekObsahujeKlicoveSlovo):`  
+Aby metoda vrátila data, jiná než prázdná, musí být splněny podmínky:  
+```
+    def vratNazevInstanceATridy(self, radekKodu, koncovyStrednik, radekObsahujeKlicoveSlovo):
+        ...
+        if (jednaSeOMetodu == True):
+            ...
+            if (koncovyStrednik == True):
+                ...
+                if (radekObsahujeKlicoveSlovo == False):
+                    ...
+                    if (radekObsahujeNew == True):
+                       ... 
+                       slovaNaRadku = radekKodu.split()
+                       nazevTridy = slovaNaRadku[0]
+                       nazevInstance = slovaNaRadku[1]
+
+        # data do pole se predavaji zde
+        self.__data.add_nazevInstance(nazevInstance)
+        self.__data.add_nazevTridy(nazevTridy)
+```
+data se zapisují prostřednictvím setrů  
+`data.add_nazevInstance(nazevInstance)`
+`data.add_nazevTridy(nazevTridy)
