@@ -18,6 +18,6 @@ vykonavejHlavniProgram.hlavniProgram()
 ```
 
 ## Popis metod
-### class vykonavaniHlavnihoProgramu():
+### class `vykonavaniHlavnihoProgramu()`:
 třída je v souboru: `mainProgram.SeznamZdroju`.
 
