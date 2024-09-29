@@ -218,7 +218,7 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |24|        text = vytvorPoleRadkuTxt(logArrStr);                                             |True |False|True |                        |'' |'vytvorPoleRadkuTxt'|44|66
 |25|                                                                                          |True |False|False|                        |'' |'          '|-1|-1
 |26|        //vytiskne vystup do csv                                                          |False|False|False|                        |'' |'          '|-1|-1
-|27|        vytiskniVystup(text| adresaProjektuFull);"                                        |True |False|True |                        |'' |'vytiskniVystup'|68|80
+|27|        vytiskniVystup(text, adresaProjektuFull);"                                        |True |False|True |                        |'' |'vytiskniVystup'|68|80
 |28|                                                                                          |True |False|False|                        |'' |'          '|-1|-1
 |29|    }                                                                                     |True |False|False|                        |'}'|'          '|-1|-1
 |30|                                                                                          |True |False|False|                        |'' |'          '|-1|-1
@@ -248,7 +248,7 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |54|                                                                                          |True |False|False|                        |' '|'          '|-1|-1
 |55|            for (int s = 0; s < radekArr.size(); s++) {                                   |True |True|False |                        |'{'|'          '|-1|-1
 |56|                hodnota = radekArr.get(s);                                                |True |False|True |                        |''|'get'|-1|-1
-|57|                text = text + hodnota + ""|"";"                                           |True |False|True |                        |' '|'          '|-1|-1
+|57|                text = text + hodnota + ""/"";"                                           |True |False|True |                        |' '|'          '|-1|-1
 |58|            }                                                                             |True |False|False|                        |'}'|'          '|-1|-1
 |59|                                                                                          |True |False|False|                        |' '|'          '|-1|-1
 |60|            text = text + ""\n"";"                                                        |True |False|True |                        |' '|'          '|-1|-1
