@@ -16,3 +16,8 @@ import mainProgram.NovyJAVAKod
 vykonavejHlavniProgram = mainProgram.SeznamZdroju.vykonavaniHlavnihoProgramu()
 vykonavejHlavniProgram.hlavniProgram()
 ```
+
+## Popis metod
+### class vykonavaniHlavnihoProgramu():
+třída je v souboru: `mainProgram.SeznamZdroju`.
+
