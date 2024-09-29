@@ -294,6 +294,9 @@ Pole (sloupce) v tabulce znamenají:
  
 
   
-
+Příkazem  
+`dataVsechSouboru.append(dataJednohoSouboru)`  
+přidáváme jednotlivý objekt `dataJednohoSouboru` do objedktu `dataVsechSouboru`.  
+`dataVsechSouboru` tedy obsahují data (tabulky výše) všech `.java` souborů
  
 
