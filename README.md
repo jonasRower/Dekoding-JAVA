@@ -329,9 +329,6 @@ Metodu jsme volali z kódu, výše:
 
 
         # inicializuji tridu pro ukladani dat
-        # nazevSouboru = "SQL_GUI_Frame.java"
-        # adresa = 'C:\\Users\\jonas\\PycharmProjects\\DokumentaceJAVY\\Kod JAVY\\src\\SQL_GUI_Frame.java'
-        #adresa = "C:\\Users\\jonas\\OneDrive\\Dokumenty\\JAVA\\Pokusy\\SQL_GUI_1\\src\\sql_gui\\SQL_GUI_Frame.java"
         data = DataProgramu.Data()
 
         # nastavi nazev souboru do dat
