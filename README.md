@@ -23,8 +23,8 @@ třída je v souboru: `mainProgram.SeznamZdroju`.
 
 #### metoda `def hlavniProgram(self):`
 `adresyZdrojuData.vratSeznamAdresZdroju()` plní objekt `adresyZdrojuData` daty.  
-`seznamAdres` obsahuje seznam všech adres k jednotlivým `.java` souborům - bez názvů `.java`
-`seznamAdresZdroju`obsahuje seznam všech adres k jednotlivým `.java souborům` - včetně názvů `.java`
-`seznamZdroju` obsahuje seznam názvů souborů `.java`
+`seznamAdres` obsahuje seznam všech adres k jednotlivým `.java` souborům - bez názvů `.java`  
+`seznamAdresZdroju`obsahuje seznam všech adres k jednotlivým `.java souborům` - včetně názvů `.java`  
+`seznamZdroju` obsahuje seznam názvů souborů `.java`  
 
 
