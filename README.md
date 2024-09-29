@@ -283,7 +283,7 @@ Ostatní pole si ukážeme na jiných datech.
 
 Pole (sloupce) v tabulce znamenají: 
 `poleRadku` - jednotlivé řádky kódu v poli  
-`jeTotoKod` - je-li `False`, pak se jedná o komentář 
+`jeTotoKod` - je-li `False`, pak se jedná o komentář   
 `klicoveSlovo` - pokud je `True`, pak obsahuje slovo např. `for`, `if`, ....  
 `koncovyStrrednik` - pokud je `True`, pak je řádek kódu ukončen středníkem.  
 `nazevMetody` - nazev metody v hlavičce  
