@@ -212,7 +212,7 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |18|    public createOutput(ArrayList<ArrayList<String>>logArrStr, String adresaProjektu, String nazevLogu){"                   |True|False|False|createOutput|'{'|'createOutput'|18|30
 |19|                                                                                          |True |False|False|                        |'' |'          '|-1|-1
 |20|        String adresaProjektuFull;                                                        |True |False|True |                        |'' |'          '|-1|-1
-|21|        adresaProjektuFull = ziskejAdresuKamGenerovat(adresaProjektu| nazevLogu);"        |True |False|True |                        |'' |'ziskejAdresuKamGenerovat'|34|42
+|21|        adresaProjektuFull = ziskejAdresuKamGenerovat(adresaProjektu, nazevLogu);"        |True |False|True |                        |'' |'ziskejAdresuKamGenerovat'|34|42
 |22|                                                                                          |True |False|False|                        |'' |'          '|-1|-1
 |23|        String text;                                                                      |True |False|True |                        |'' |'          '|-1|-1
 |24|        text = vytvorPoleRadkuTxt(logArrStr);                                             |True |False|True |                        |'' |'vytvorPoleRadkuTxt'|44|66
@@ -259,7 +259,7 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |65|    }                                                                                     |True |False|False|                        |'}'|'          '|-1|-1
 |66|                                                                                          |True |False|False|                        |' '|'          '|-1|-1
 |67|                                                                                          |True |False|False|                        |' '|'          '|-1|-1
-|68|    private void vytiskniVystup(String text| String adresaProjektuFull){"                 |True |False|False|vytiskniVystup          |'{'|'          '|-1|-1
+|68|    private void vytiskniVystup(String text, String adresaProjektuFull){"                 |True |False|False|vytiskniVystup          |'{'|'          '|-1|-1
 |69|                                                                                          |True |False|False|                        |' '|'          '|-1|-1
 |70|        try {                                                                             |True |True |False|                        |'{'|'          '|-1|-1
 |71|                FileWriter myWriter = new FileWriter(adresaProjektuFull);                 |True |False|True |                        |' '|'FileWriter'|-1|-1
