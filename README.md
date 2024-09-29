@@ -534,7 +534,7 @@ Třída obsahuje pouze setry. S každým voláním zapisuje data do příslušn�
 
 ### class `MetodyJednohoRadku():`
 Třída je v souboru: `mainProgram.metody.py`.  
-Obsahuje metody:
+Obsahuje metody:  
 `def rozhodniZdaDanyRadekJeKod(self, radekKodu):`  
 `def detekujPritomnostStrednikuNaKonciRadku(self, radekKodu):`  
 `def zjistiZdaRadekKoduObsahujeKlicoveSlovo(self, radekKodu):`  
