@@ -621,5 +621,5 @@ Aby metoda vrátila data, jiná než prázdná, musí být splněny podmínky:
         self.__data.add_nazevTridy(nazevTridy)
 ```
 data se zapisují prostřednictvím setrů  
-`data.add_nazevInstance(nazevInstance)`
-`data.add_nazevTridy(nazevTridy)
+`data.add_nazevInstance(nazevInstance)`  
+`data.add_nazevTridy(nazevTridy)`  
