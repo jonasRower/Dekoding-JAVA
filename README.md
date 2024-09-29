@@ -622,4 +622,51 @@ Aby metoda vrátila data, jiná než prázdná, musí být splněny podmínky:
 ```
 data se zapisují prostřednictvím setrů  
 `data.add_nazevInstance(nazevInstance)`  
-`data.add_nazevTridy(nazevTridy)`  
+`data.add_nazevTridy(nazevTridy)`   
+
+Příklad, řádek kódu `.java` je následující:  
+`radekKodu` = `'                FileWriter myWriter = new FileWriter(adresaProjektuFull);'`.
+Pak se vrací hodnoty:  
+`nazevTridy` = `'FileWriter'`  
+`nazevInstance` = `'myWriter'`
+
+
+#### metoda `vratNazevVolaneInstanceAMetody(self, radekKodu, koncovyStrednik, radekObsahujeKlicoveSlovo, r):` 
+Aby metoda vrátila data, jiná než prázdná, musí být splněny podmínky: 
+```
+    def vratNazevVolaneInstanceAMetody(self, radekKodu, koncovyStrednik, radekObsahujeKlicoveSlovo, r):
+        ....
+        if (koncovyStrednik == True):
+            ... 
+            if (radekObsahujeKlicoveSlovo == False):
+                ... 
+                jednaSeOMetodu = self.__InjectedObj().indikujZdaSeJednaOMetodu(radekKodu)
+                if (jednaSeOMetodu == True):
+                    ...
+                    InstanceAMetodaArr = InstanceAMetoda.split(".")
+                    if (len(InstanceAMetodaArr) == 2):
+                        volanaInstance = InstanceAMetodaArr[0]
+                        volanaMetoda = InstanceAMetodaArr[1]
+
+                        jeInstanceKlicoveSlovo = self.__InjectedObj().detekujPritomnostKlicovehoSlova(volanaInstance)
+                        jeMetodaKlicoveSlovo = self.__InjectedObj().detekujPritomnostKlicovehoSlova(volanaMetoda)
+
+                        # proveri, zda se nahodnou nejedna o klicove slovo, pokud ano, pak jej prepise na""
+                        if (jeInstanceKlicoveSlovo == True):
+                            volanaInstance = ""
+                            volanaMetoda = ""
+
+                        if (jeMetodaKlicoveSlovo == True):
+                            volanaInstance = ""
+                            volanaMetoda = ""
+
+        self.__data.add_volanaInstance(volanaInstance)
+        self.__data.add_volanaMetoda(volanaMetoda)
+```
+data se zapisují, i zde, prostřednictvím setrů  
+
+Příklad, řádek kódu `.java` je následující:  
+`radekKodu` = `'                myWriter.write(text);'`.
+Pak se vrací hodnoty:  
+`volanaInstance` = `'myWriter'`  
+`volanaMetoda` = `'write'`
