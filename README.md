@@ -414,4 +414,20 @@ Metodu jsme volali z kódu, výše:
 
                 # Implicitne vytvori prazdne pole s volanymi tridami
                 data.add_volanaTrida("")
+
+        # do poli data.zacatekBloku a data.konecBloku dopisuje indexy zavorek "{" a "}"
+        # dopise je vzdy na ten radek kde je zapsana volana metoda
+        # tzn. indexy "{" a "}" jsou indexy konkretni metody ulozene v data.nazevMetody
+        # avsak zapsane na prislusny radek, na kterym se nachazi data.volanaMetoda
+        metodyPredavajiciDataSamostatne.dopisujIndexyOtevrenychAZavrenychZavorek()
+
+
+        # inicializuji tridu pro vytvareni noveho JAVoveho Kodu
+        #novyJAVAKod = NovyJAVAKod.RoztahujData(data)
+        #novyJAVAKod.hlavni()
+
+        #testuje data
+        #test.testujData(data)
+
+        return(data)
 ```
