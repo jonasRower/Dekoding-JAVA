@@ -198,7 +198,7 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |import java.io.FileWriter;                                                                |True |False|True |                        |'' |''|-1|-1
 |import java.io.IOException;                                                               |True |False|True |                        |'' |''|-1|-1
 |import java.util.ArrayList;                                                               |True |False|True |                        |'' |''|-1|-1
-||import java.util.HashMap;                                                                |True |False|True |                        |'' |''|-1|-1
+|import java.util.HashMap;                                                                |True |False|True |                        |'' |''|-1|-1
 |                                                                                          |True |False|False|                        |'' |''|-1|-1
 |                                                                                          |True |False|False|                        |'' |''|-1|-1
 |public class createOutput {                                                               |True |False|False|                        |'{'|''|-1|-1
