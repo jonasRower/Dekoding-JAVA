@@ -80,7 +80,8 @@ třída je v souboru: `mainProgram.SeznamZdroju`.
 `seznamZdroju` obsahuje seznam názvů souborů `.java`  
 
 
-|poleRadku                                       |jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku
+|poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
+|---------|---------|------------|---------------|-----------|--------------|------------|------------|----------|
 |                                                                                 |True |False|False||''|''|-1|-1
 |package createOutput;                                                            |True |False|True ||''|''|-1|-1
 |                                                                                 |True |False|False||''|''|-1|-1
