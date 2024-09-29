@@ -173,7 +173,7 @@ public class createOutput {
 }
 ```
 
-Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
+Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:  
 `jeTotoKod`  
 `klicoveSlovo`  
 `koncovyStrrednik`  
