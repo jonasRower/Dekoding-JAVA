@@ -535,11 +535,11 @@ Třída obsahuje pouze setry. S každým voláním zapisuje data do příslušn�
 ### class `MetodyJednohoRadku():`
 Třída je v souboru: `mainProgram.metody.py`.  
 Obsahuje metody:
-`def rozhodniZdaDanyRadekJeKod(self, radekKodu):`
-`def detekujPritomnostStrednikuNaKonciRadku(self, radekKodu):`
-`def zjistiZdaRadekKoduObsahujeKlicoveSlovo(self, radekKodu):`
-`def vratNazevMetody(self, radekKodu):`
-`def vratSlozenouZavorku(self, radekKodu):`
+`def rozhodniZdaDanyRadekJeKod(self, radekKodu):`  
+`def detekujPritomnostStrednikuNaKonciRadku(self, radekKodu):`  
+`def zjistiZdaRadekKoduObsahujeKlicoveSlovo(self, radekKodu):`  
+`def vratNazevMetody(self, radekKodu):`  
+`def vratSlozenouZavorku(self, radekKodu):`  
 
 ### Popis metod
 #### metoda `def rozhodniZdaDanyRadekJeKod(self, radekKodu):`
