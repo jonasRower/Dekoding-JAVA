@@ -188,6 +188,8 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 `volanaTrida`  
 `zacatekBloku`  
 
+Některá pole jsou v tabulce níže (=jednotlivé sloupce).  
+Ostatní pole si ukážeme na jiných datech.  
 
 |  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
 |--|---------|---------|------------|---------------|-----------|--------------|------------|------------|----------|
@@ -278,8 +280,6 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |84|                                                                                          |True |False|False|                        |' '|'          '|-1|-1
 |85|}                                                                                         |True |False|False|                        |'}'|'          '|-1|-1
 
-
-|  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
 
 Pole (sloupce) v tabulce znamenají: 
 `poleRadku` - jednotlivé řádky kódu v poli  
