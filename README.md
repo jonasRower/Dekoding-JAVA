@@ -1,2 +1,4 @@
 # Dekoding-JAVA
-Algorithm re-prints a JAVA code in tree-structure
+Převádí zdrojový kód JAVA do stromové struktury.
+
+
