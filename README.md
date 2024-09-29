@@ -431,3 +431,34 @@ Metodu jsme volali z kódu, výše:
 
         return(data)
 ```
+
+K získání dat využíváme tříd:
+`Metody.MetodyJednohoRadku(ostatniMetody)` - jsou metody, které detekují data na daném řádku kódu `JAVA`, aniž by musely znát řádky ostatní.  
+`Metody.MetodyPredavajiciDataSamostatne(ostatniMetody, data)` - jsou metody, které získávají data na základě analýzy z více řádků kódu 'JAVA'. 
+Obě třídy vyžadují objekt `ostatniMetody = Metody.OstatniMetody()`  
+  
+Smyčka běží na všech řádcích kódu daného souboru `.java`
+```
+...
+        with open(adresa, mode="r", encoding="utf-8") as f:
+
+            linesOfFile = f.readlines()
+
+            for r in range(0, len(linesOfFile)):
+
+                line = linesOfFile[r]
+...
+```
+
+přičemž hodnoty se nastavují pomocí setrů v každé smyčce:
+```
+                # Nastavuje hodnoty do pole
+                data.add_jeTotoKod(JeToKod)
+                data.add_koncovyStrednik(koncovyStrednik)
+                data.add_nazevMetody(nazevMetody)
+                data.add_slozenaZavorka(radekSeZavorkou)
+                data.add_klicoveSlovo(radekObsahujeKlicoveSlovo)      
+```
+
+ostatní data se zapisují prostřednictvíém třídy:
+`metodyPredavajiciDataSamostatne`
