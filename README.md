@@ -174,19 +174,19 @@ public class createOutput {
 ```
 
 Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
-`jeTotoKod`
-`klicoveSlovo`
-`koncovyStrrednik`
-`konecBloku`
-`nazeInstance`
-`nazevMetody`
-`nazevTridy`
-`poleRadku`
-`slozenaZavorka`
-`volanaInstance`
-`volanaMetoda`
-`volanaTrida`
-`zacatekBloku`
+`jeTotoKod`  
+`klicoveSlovo`  
+`koncovyStrrednik`  
+`konecBloku`  
+`nazeInstance`  
+`nazevMetody`  
+`nazevTridy`  
+`poleRadku`  
+`slozenaZavorka`  
+`volanaInstance`  
+`volanaMetoda`  
+`volanaTrida`  
+`zacatekBloku`  
 
 
 |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
