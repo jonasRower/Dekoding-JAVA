@@ -625,7 +625,7 @@ data se zapisují prostřednictvím setrů
 `data.add_nazevTridy(nazevTridy)`   
 
 Příklad, řádek kódu `.java` je následující:  
-`radekKodu` = `'                FileWriter myWriter = new FileWriter(adresaProjektuFull);'`.
+`radekKodu` = `'                FileWriter myWriter = new FileWriter(adresaProjektuFull);'`.  
 Pak se vrací hodnoty:  
 `nazevTridy` = `'FileWriter'`  
 `nazevInstance` = `'myWriter'`
@@ -666,7 +666,7 @@ Aby metoda vrátila data, jiná než prázdná, musí být splněny podmínky:
 data se zapisují, i zde, prostřednictvím setrů  
 
 Příklad, řádek kódu `.java` je následující:  
-`radekKodu` = `'                myWriter.write(text);'`.
+`radekKodu` = `'                myWriter.write(text);'`.  
 Pak se vrací hodnoty:  
 `volanaInstance` = `'myWriter'`  
 `volanaMetoda` = `'write'`
