@@ -530,5 +530,60 @@ class Data:
         self.volanaTrida.append(volanaTrida)
 
 ```
-Třída obsahuje pouze setry
+Třída obsahuje pouze setry. S každým voláním zapisuje data do příslušných polí.
 
+### class `MetodyJednohoRadku():`
+Třída je v souboru: `mainProgram.metody.py`.  
+Obsahuje metody:
+`def rozhodniZdaDanyRadekJeKod(self, radekKodu):`
+`def detekujPritomnostStrednikuNaKonciRadku(self, radekKodu):`
+`def zjistiZdaRadekKoduObsahujeKlicoveSlovo(self, radekKodu):`
+`def vratNazevMetody(self, radekKodu):`
+`def vratSlozenouZavorku(self, radekKodu):`
+
+### Popis metod
+#### metoda `def rozhodniZdaDanyRadekJeKod(self, radekKodu):`
+Vrací `False` pokud je CELÝ řádek zakomentovaný, jinak vrací `True`
+
+#### metoda `def detekujPritomnostStrednikuNaKonciRadku(self, radekKodu):`
+Vrací `True` pokud je řádek zakončen středníkem.
+V `JAVA` kódu obecně platí, že každý příkaz (řádek) zakončen středníkem bý musí, pokud však se jedná o volání metody, pak poslední znak na řádku je `{`
+
+#### metoda `def zjistiZdaRadekKoduObsahujeKlicoveSlovo(self, radekKodu):`
+Vrací `True` pokud detekuje na řádku klíčové slovo.
+Klíčová slova jsou definována v souboru `vstupniData.py`
+```
+def definiceKlicovychSlov():
+
+    klicovaSlova = []
+    klicovaSlova.append("for")
+    klicovaSlova.append("if")
+    klicovaSlova.append("while")
+    klicovaSlova.append("try")
+    klicovaSlova.append("catch")
+    klicovaSlova.append("indexOf")
+    klicovaSlova.append("substring")
+    klicovaSlova.append("split")
+    klicovaSlova.append("length")
+    klicovaSlova.append("println")
+    klicovaSlova.append("getLength")
+    klicovaSlova.append("setForeground")
+    klicovaSlova.append("return")
+
+    return (klicovaSlova)
+```
+
+#### metoda `def vratNazevMetody(self, radekKodu):`
+Příklad, řádek kódu `.java` je následující:  
+`radekKodu` = `'    public createOutput(ArrayList<ArrayList<String>>logArrStr, String adresaProjektu, String nazevLogu){
+'`.  
+Pak se vrací hodnota:  
+`nazevMetody` = `'createOutput'`
+
+
+#### metoda `def vratNazevMetody(self, radekKodu):`
+Příklad, řádek kódu `.java` je následující:  
+`radekKodu` = `'    public createOutput(ArrayList<ArrayList<String>>logArrStr, String adresaProjektu, String nazevLogu){
+'`.
+Pak se vrací hodnota:  
+`radekSeZavorkou` = `'{'`
