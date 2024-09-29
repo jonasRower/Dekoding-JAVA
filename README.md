@@ -19,7 +19,7 @@ vykonavejHlavniProgram.hlavniProgram()
 
 ## Popis metod
 ### class `vykonavaniHlavnihoProgramu():`
-třída je v souboru: `mainProgram.SeznamZdroju`.
+třída je v souboru: `mainProgram.SeznamZdroju.py`.
 
 #### metoda `def hlavniProgram(self):`
 ```
@@ -298,5 +298,21 @@ Příkazem
 `dataVsechSouboru.append(dataJednohoSouboru)`  
 přidáváme jednotlivý objekt `dataJednohoSouboru` do objedktu `dataVsechSouboru`.  
 `dataVsechSouboru` tedy obsahují data (tabulky výše) všech `.java` souborů
- 
 
+
+### class `NactiDataProJedenZdroj():`
+Třída je v souboru: `mainProgram.nactiZdroj`.  
+Touto metodou se získávají `dataJednohoSouboru`  
+
+Metodu jsme volali z kódu, výše:
+```
+ def hlavniProgram(self):
+    ....    
+        for i in range(0, pocetSouboru):
+            ....
+            # hlavni program pro ziskani kompletnich dat pro jeden soubor
+            startProgramu = mainProgram.NactiZdroj.NactiDataProJedenZdroj()
+
+            # data pro jeden soubor ulozi sem
+            dataJednohoSouboru = startProgramu.spustProgram(adresaZdroj, zdroj)
+```
