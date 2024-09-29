@@ -279,4 +279,21 @@ Python plní objekt `dataJednohoSouboru`, který obsahuje jednotlivá pole:
 |85|}                                                                                         |True |False|False|                        |'}'|'          '|-1|-1
 
 
+|  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
+
+Pole (sloupce) v tabulce znamenají: 
+`poleRadku` - jednotlivé řádky kódu v poli  
+`jeTotoKod` - je-li `False`, pak se jedná o komentář 
+`klicoveSlovo` - pokud je `True`, pak obsahuje slovo např. `for`, `if`, ....  
+`koncovyStrrednik` - pokud je `True`, pak je řádek kódu ukončen středníkem.
+`nazevMetody` - nazev metody v hlavičce
+`slozenaZavorka` - pokud je složená závorka, pak obsahuje danou závorku `{` nebo `}` , pokud tam není, je hodnota prázdná
+`volanaMetoda` - název metody, která je na daném řádku volána
+`zacatekBloku` - odkazuje na index řádku, kde je `{` dané metody na řádku, pokud konec bloku není, pak je `-1`
+`konecBloku` - odkazuje na index řádku, kde je `}` dané metody na řádku, pokud konec bloku není, pak je `-1`
+ 
+
+  
+
+ 
 
