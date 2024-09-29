@@ -73,6 +73,7 @@ třída je v souboru: `mainProgram.SeznamZdroju`.
         self.poleRadkuN = novyJAVAKod.getPoleRadkuN()
 ```
 
+##### Popis proměnných
 `adresyZdrojuData.vratSeznamAdresZdroju()` plní objekt `adresyZdrojuData` daty.  
 `seznamAdres` obsahuje seznam všech adres k jednotlivým `.java` souborům - bez názvů `.java`  
 `seznamAdresZdroju`obsahuje seznam všech adres k jednotlivým `.java souborům` - včetně názvů `.java`  
