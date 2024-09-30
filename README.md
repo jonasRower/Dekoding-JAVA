@@ -776,5 +776,4 @@ Pak se vrací hodnota:
 
 |  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
 |--|---------|---------|------------|---------------|-----------|--------------|------------|------------|----------|
-
 |21|        adresaProjektuFull = ziskejAdresuKamGenerovat(adresaProjektu, nazevLogu);"        |True |False|True |                        |'' |'ziskejAdresuKamGenerovat'|34|42
