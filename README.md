@@ -773,3 +773,8 @@ Pak se vrací hodnota:
                         self.__data.zacatekBloku[radekVolaneMetody] = indexNejblizsiOtevreneZavorky
                         self.__data.konecBloku[radekVolaneMetody] = indexNejblizsiZavreneZavorky
 ```
+
+|  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
+|--|---------|---------|------------|---------------|-----------|--------------|------------|------------|----------|
+
+|21|        adresaProjektuFull = ziskejAdresuKamGenerovat(adresaProjektu, nazevLogu);"        |True |False|True |                        |'' |'ziskejAdresuKamGenerovat'|34|42
