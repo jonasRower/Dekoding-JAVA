@@ -670,3 +670,14 @@ Příklad, řádek kódu `.java` je následující:
 Pak se vrací hodnoty:  
 `volanaInstance` = `'myWriter'`  
 `volanaMetoda` = `'write'`
+
+
+#### metoda `zapisMetoduJakoKonstruktor(self, radekKodu, r):` 
+Vrací název konstruktoru.  
+Příklad, řádek kódu `.java` je následující:  
+`radekKodu` = `'        dataForTree vytvorDataProStrom = new dataForTree(poleRadku);'`.  
+Pak se vrací hodnota:  
+`nazevKonstruktoru` = `'dataForTree'` 
+
+
+
