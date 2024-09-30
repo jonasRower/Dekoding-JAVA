@@ -680,7 +680,7 @@ Pak se vrací hodnota:
 `nazevKonstruktoru` = `'dataForTree'` 
 
 #### metoda `vratNazevVolaneMetody(self, radekKodu, koncovyStrednik, klicoveSlovo, r):` 
-Kód je následující:
+Kód je následující, výstup uvádíme níže:
 ```
     def vratNazevVolaneMetody(self, radekKodu, koncovyStrednik, klicoveSlovo, r):
         metodaPredZavorkou = ""
@@ -742,3 +742,7 @@ Příklad, řádek kódu `.java` je následující:
 `radekKodu` = `'        text = prevedArrNaText(poleStromuRadku);'`.  
 Pak se vrací hodnota:  
 `metodaPredZavorkou` = `'prevedArrNaText'` 
+
+
+#### metoda `dopisujIndexyOtevrenychAZavrenychZavorek(self):`
+
