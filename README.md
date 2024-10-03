@@ -789,3 +789,13 @@ Tomu odpovídá řádek tabulky néíže:
 Ve tříde `.java` kódu: `public class createOutput {`  
 Metod `ziskejAdresuKamGenerovat` začíná v poli na indexu `34` a končí na indexu `42`
 
+
+### class `OstatniMetody():`  
+Třída je v souboru: `mainProgram.metody.py`.  
+Metody jsou volány ostatními třídami:
+Obsahuje metody:  
+`def indikujZdaSeJednaOMetodu(self, radekKodu):`  
+`def jednaSeOArrayList(self, radekKodu):`  
+`def obahujeRadekKoduKlicoveSlovoNew(self, radekKodu):`  
+`def detekujPritomnostKlicovehoSlova(self, radekKodu):`  
+`def pridejMezeryPredRadek(self, radekKodu):`  
