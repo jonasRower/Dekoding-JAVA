@@ -775,9 +775,17 @@ Pak se vrací hodnota:
 ```
 Příklad  
 kód běří přes všechny smyčky, kde  
-nazevMetodyHodnota = hodnota ve sloupci tabulky výše - sloupec 
-
+`nazevMetodyHodnota` = hodnota ve sloupci tabulky výše - sloupec `nazevMetody`
+Ve smyčce kde `nazevMetodyHodnota` = ziskejAdresuKamGenerovat
+Vrací se hodnoty:
+indexNejblizsiOtevreneZavorky = `34`  
+indexNejblizsiZavreneZavorky = `42`  
+Tomu odpovídá řádek tabulky néíže:  
 
 |  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
 |--|---------|---------|------------|---------------|-----------|--------------|------------|------------|----------|
 |21|        adresaProjektuFull = ziskejAdresuKamGenerovat(adresaProjektu, nazevLogu);"        |True |False|True |                        |'' |'ziskejAdresuKamGenerovat'|34|42
+
+Ve tříde `.java` kódu: `public class createOutput {`  
+Metod `ziskejAdresuKamGenerovat` začíná v poli na indexu `34` a končí na indexu `42`
+
