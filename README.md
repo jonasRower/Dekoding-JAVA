@@ -773,6 +773,10 @@ Pak se vrací hodnota:
                         self.__data.zacatekBloku[radekVolaneMetody] = indexNejblizsiOtevreneZavorky
                         self.__data.konecBloku[radekVolaneMetody] = indexNejblizsiZavreneZavorky
 ```
+Příklad  
+kód běří přes všechny smyčky, kde  
+nazevMetodyHodnota = hodnota ve sloupci tabulky výše - sloupec 
+
 
 |  |poleRadku|jeTotoKod|klicoveSlovo|koncovyStrednik|nazevMetody|slozenaZavorka|volanaMetoda|zacatekBloku|konecBloku|
 |--|---------|---------|------------|---------------|-----------|--------------|------------|------------|----------|
