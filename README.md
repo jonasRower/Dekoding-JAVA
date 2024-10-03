@@ -776,7 +776,7 @@ Pak se vrací hodnota:
 Příklad  
 kód běří přes všechny smyčky, kde  
 `nazevMetodyHodnota` = hodnota ve sloupci tabulky výše - sloupec `nazevMetody`
-Ve smyčce kde `nazevMetodyHodnota` = ziskejAdresuKamGenerovat
+Ve smyčce kde `nazevMetodyHodnota` = `ziskejAdresuKamGenerovat`  
 Vrací se hodnoty:
 indexNejblizsiOtevreneZavorky = `34`  
 indexNejblizsiZavreneZavorky = `42`  
