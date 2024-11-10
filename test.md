@@ -1,4 +1,9 @@
-# toto je test
+# name of method
+
+## list of variables
+
+
+## code of method
 ```
     def hlavniProgram(self):
 
