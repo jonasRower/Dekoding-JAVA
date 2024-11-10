@@ -1,6 +1,9 @@
 # Dekoding-JAVA
 Převádí zdrojový kód JAVA do stromové struktury.
 
+## myLib documentation
+see documentation [here](test.md)
+
 toto je test
 
 ## Spuštění programu
