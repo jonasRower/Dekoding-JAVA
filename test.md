@@ -1,7 +1,15 @@
-# name of method
+# def hlavniProgram(self):
 
 ### list of variables
-
+adresyZdrojuData 
+dataVsechSouboru 
+pocetSouboru 
+adresaZdroj 
+zdroj 
+startProgramu 
+dataJednohoSouboru 
+novyJAVAKod 
+self.poleRadkuN 
 
 ### code of method
 ```
@@ -53,5 +61,4 @@
         novyJAVAKod.hlavni()
 
         self.poleRadkuN = novyJAVAKod.getPoleRadkuN()
-
 ```
