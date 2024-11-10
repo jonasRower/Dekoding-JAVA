@@ -1,9 +1,9 @@
 # name of method
 
-## list of variables
+### list of variables
 
 
-## code of method
+### code of method
 ```
     def hlavniProgram(self):
 
