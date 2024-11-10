@@ -1,4 +1,4 @@
-# def hlavniProgram(self):
+# def hlavniProgram(self): 
 
 ### list of variables
 adresyZdrojuData   
