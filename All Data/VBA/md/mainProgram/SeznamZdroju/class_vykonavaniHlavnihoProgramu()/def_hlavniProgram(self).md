@@ -10,6 +10,7 @@ startProgramu
 dataJednohoSouboru   
 novyJAVAKod   
 self.poleRadkuN   
+[test](def_getPoleRadkuN(self).md)
 
 ### code of method
 ```
