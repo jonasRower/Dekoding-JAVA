@@ -9,4 +9,4 @@
         self.ifPodminka.append(ifPodminka)
 ```
 ### links
-[klicoveSlovoNalezeno=self.__InjectedObj().detekujPritomnostKlicovehoSlova](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyJednohoRadku()/def __InjectedObj(self))
+[toto je test](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyJednohoRadku()/def __InjectedObj(self))
