@@ -10,4 +10,4 @@
 ```
 
 [here](def_add_Adresa(self,adresa).md)
-[here](\..\class_SeznamZdroju()\def_add_Adresa(self,adresa).md)
+[here](\...\class_SeznamZdroju()\def_add_Adresa(self,adresa).md)
