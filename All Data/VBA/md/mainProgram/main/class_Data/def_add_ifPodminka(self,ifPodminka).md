@@ -9,4 +9,4 @@
         self.ifPodminka.append(ifPodminka)
 ```
 ### links
-[toto je test](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyJednohoRadku()/def__InjectedObj(self).md)
+[toto je test](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyJednohoRadku()/def___InjectedObj(self).md)
