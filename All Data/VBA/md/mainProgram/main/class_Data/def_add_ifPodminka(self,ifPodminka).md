@@ -8,3 +8,5 @@
     def add_ifPodminka(self, ifPodminka):
         self.ifPodminka.append(ifPodminka)
 ```
+### links
+[klicoveSlovoNalezeno=self.__InjectedObj().detekujPritomnostKlicovehoSlova(radekKodu)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyJednohoRadku()/def __InjectedObj(self))
