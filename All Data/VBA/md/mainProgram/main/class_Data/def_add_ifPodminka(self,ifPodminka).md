@@ -9,4 +9,4 @@
         self.ifPodminka.append(ifPodminka)
 ```
 ### links
-[toto je test](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyJednohoRadku()/def __InjectedObj(self))
+[toto je test](../All%20Data/VBA/md/mainProgram/SeznamZdroju/class_vykonavaniHlavnihoProgramu()/def_kVolaneMetodeNajdiNazevTridy(self%2CdataJednohoSouboru%2CdataVsechSouboru).md)
