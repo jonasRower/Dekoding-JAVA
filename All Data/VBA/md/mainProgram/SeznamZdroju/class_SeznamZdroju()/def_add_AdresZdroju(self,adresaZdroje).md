@@ -10,3 +10,4 @@
 ```
 
 [here](def_add_Adresa(self,adresa).md)
+[here](\..\class_vykonavaniHlavnihoProgramu()\def_add_Adresa(self,adresa).md)
