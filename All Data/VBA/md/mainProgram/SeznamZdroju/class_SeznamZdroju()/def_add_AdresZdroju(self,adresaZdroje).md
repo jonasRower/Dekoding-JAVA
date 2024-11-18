@@ -8,3 +8,5 @@
     def add_AdresZdroju(self, adresaZdroje):                #full path
         self.seznamAdresZdroju.append(adresaZdroje)
 ```
+
+[here](def_add_Adresa(self,adresa).md)
