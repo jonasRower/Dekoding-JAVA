@@ -10,4 +10,4 @@
 ```
 
 [here](def_add_Adresa(self,adresa).md)
-[here](\...\class_SeznamZdroju()\def_add_Adresa(self,adresa).md)
+[here](../All%20Data/VBA/md/mainProgram/SeznamZdroju/class_vykonavaniHlavnihoProgramu()/def_kVolaneMetodeNajdiNazevTridy(self%2CdataJednohoSouboru%2CdataVsechSouboru).md)
