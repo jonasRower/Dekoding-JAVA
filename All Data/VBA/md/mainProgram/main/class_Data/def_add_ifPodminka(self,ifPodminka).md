@@ -9,5 +9,5 @@
         self.ifPodminka.append(ifPodminka)
 ```
 ### links
-[toto je test](../Metody/class_MetodyJednohoRadku()/def_detekujPritomnostStrednikuNaKonciRadku(self%2CradekKodu).md)  
+[toto je test](../mainProgram/Metody/class_MetodyJednohoRadku()/def_detekujPritomnostStrednikuNaKonciRadku(self%2CradekKodu).md)  
 [odkaz na cizi soubor](../SeznamZdroju/class_vykonavaniHlavnihoProgramu()/def_kVolaneMetodeNajdiNazevTridy(self%2CdataJednohoSouboru%2CdataVsechSouboru).md)
