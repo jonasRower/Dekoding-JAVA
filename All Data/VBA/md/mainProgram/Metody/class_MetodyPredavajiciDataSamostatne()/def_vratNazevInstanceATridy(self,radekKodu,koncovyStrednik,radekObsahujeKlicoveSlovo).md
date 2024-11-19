@@ -57,4 +57,8 @@ slovaNaRadku
 [jednaSeOMetodu=self.__InjectedObj().indikujZdaSeJednaOMetodu(radekKodu)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))
 [radekObsahujeNew=self.__InjectedObj().obahujeRadekKoduKlicoveSlovoNew(radekKodu)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))
 [self.__data.add_nazevInstance(nazevInstance)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))
-[self.__data.add_nazevTridy(nazevTridy)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))
+[self.__data.add_nazevTridy(nazevTridy)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))  
+
+[toto je test](../README.md)  
+[odkaz na stejny soubor](../All%20Data/test1.md)  
+[odkaz na cizi soubor](../All%20Data/VBA/md/mainProgram/SeznamZdroju/class_vykonavaniHlavnihoProgramu()/def_kVolaneMetodeNajdiNazevTridy(self%2CdataJednohoSouboru%2CdataVsechSouboru).md)  
