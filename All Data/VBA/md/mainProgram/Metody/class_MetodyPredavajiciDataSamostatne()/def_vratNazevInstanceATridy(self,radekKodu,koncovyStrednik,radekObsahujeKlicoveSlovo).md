@@ -65,6 +65,7 @@ slovaNaRadku
 [jednaSeOMetodu=self.__InjectedObj().indikujZdaSeJednaOMetodu(radekKodu)](../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def__InjectedObj(self).md)  
   
 [jednaSeOMetodu=self.__InjectedObj().indikujZdaSeJednaOMetodu(radekKodu)](../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def__InjectedObj(self).md)  
+  
 [self.__data.add_nazevInstance(nazevInstance)](../../../../../../../../../../../../../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def__InjectedObj(self).md)
 [self.__data.add_nazevTridy(nazevTridy)](../../../../../../../../../../../../../../../../../../../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def__InjectedObj(self).md)  
 
