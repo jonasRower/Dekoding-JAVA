@@ -56,7 +56,7 @@ slovaNaRadku
 ### links
 [jednaSeOMetodu=self.__InjectedObj().indikujZdaSeJednaOMetodu(radekKodu)]  
 [xxx](../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))  
-[xxx](../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def_vratNazevInstanceATridy(self,radekKodu,koncovyStrednik,radekObsahujeKlicoveSlovo).md)
+[ccc](../../../../../../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def_vratNazevInstanceATridy(self,radekKodu,koncovyStrednik,radekObsahujeKlicoveSlovo).md)  
 [radekObsahujeNew=self.__InjectedObj().obahujeRadekKoduKlicoveSlovoNew(radekKodu).md] 
  (../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))
 [self.__data.add_nazevInstance(nazevInstance)](../All%20Data/VBA/md/mainProgram/Metody/class_MetodyPredavajiciDataSamostatne()/def __InjectedObj(self))
