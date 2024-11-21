@@ -87,10 +87,19 @@ To preview the correctly rendered html file, click
 </div>
 
 
-<div align="center">
-    It **works!**<br>
-    It **works!**
-</div>
+
+<style>
+body {
+  background-color: coral;
+}
+</style>
+
+<body>
+    <div align="center">
+        It **works!**<br>
+        It **works!**
+    </div>
+</body>
 
 It **works!**
 
