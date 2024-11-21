@@ -87,8 +87,13 @@ To preview the correctly rendered html file, click
 </div>
 
 
+<style type="text/css">
+  body {
+    background-color: #336655;
+  }
+</style>
 
-<body background-color="coral">
+<body>
     <div align="center">
         It **works!**<br>
         It **works!**
