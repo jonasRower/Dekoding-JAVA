@@ -87,7 +87,7 @@ To preview the correctly rendered html file, click
 </div>
 
 
-<span style="color:red" class="note">It **works!**</span>
+<div align="center">It **works!**</div>
 
 It **works!**
 
