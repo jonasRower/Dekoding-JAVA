@@ -51,7 +51,7 @@ ___
 
 ## $\background{green}{{\color{red}{This\ is\ a\ Big\ Title}}}$
 
-<del>tagy</del> 
+<blue>tagy</blue> 
 
 
   [![](https://img.shields.io/badge/github-blue?)]  
