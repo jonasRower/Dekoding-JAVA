@@ -27,7 +27,7 @@ indented code
 
 $${\color{red}wel \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
-> [!NOTE][toto je test](../README.md)  
+> [toto je test](../README.md)  
 > Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
