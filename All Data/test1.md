@@ -45,8 +45,8 @@ $${\color{red}wel \space \color{lightblue}To \space \color{orange}Stackoverflow}
 
 ## $\background{green}{{\color{red}{This\ is\ a\ Big\ Title}}}$
 
-  [![](https://img.shields.io/badge/github-blue?style=for-the-badge)]  
-  [![](https://img.shields.io/badge/github-blue?style=for-the-badge)]
+  [![](https://img.shields.io/badge/github-blue?)]  
+  [![](https://img.shields.io/badge/github-blue?)]
 [![](https://img.shields.io/badge/book-blueviolet?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
 [![](https://img.shields.io/badge/API-yellow?style=for-the-badge)](https://docs.rs/crate/redant/latest)
 [![](https://img.shields.io/badge/Crates.io-orange?style=for-the-badge)](https://crates.io/crates/redant)
