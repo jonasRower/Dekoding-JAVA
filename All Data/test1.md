@@ -78,5 +78,5 @@ output:
 To preview the correctly rendered html file, click 
 <a href="http://htmlpreview.github.io/?https://github.com/FlorianWanders/FAonGitHub/blob/master/MWE.html" title="preview on htmlpreview.github.io" target="_blank">here</a>. 
 
-"And here's to you, <span style="background-color:green">Mrs. Robinson</span>, Jesus loves you more than you will know."
+And here's to you, <span style="background-color:green">Mrs. Robinson</span>, Jesus loves you more than you will know.
 
