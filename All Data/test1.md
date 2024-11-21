@@ -87,9 +87,5 @@ To preview the correctly rendered html file, click
 </div>
 
 
-<div>
-
-*Emphasized* text.
-
-</div>
+<span style="display:block" class="note">It **works!**</span>
 
