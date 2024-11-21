@@ -86,3 +86,10 @@ To preview the correctly rendered html file, click
 <a href="/blog">VIEW THE BLOG</a>
 </div>
 
+
+<div>
+
+*Emphasized* text.
+
+</div>
+
