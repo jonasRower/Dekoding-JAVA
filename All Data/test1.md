@@ -88,7 +88,7 @@ To preview the correctly rendered html file, click
 
 
 <div align="center">
-    It **works!**
+    It **works!**<br>
     It **works!**
 </div>
 
