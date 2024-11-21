@@ -32,9 +32,6 @@ self.poleRadkuN
 
             # hlavni program pro ziskani kompletnich dat pro jeden soubor
             startProgramu = mainProgram.NactiZdroj.NactiDataProJedenZdroj()
-```
-              
-```
 
             # data pro jeden soubor ulozi sem
             dataJednohoSouboru = startProgramu.spustProgram(adresaZdroj, zdroj)
