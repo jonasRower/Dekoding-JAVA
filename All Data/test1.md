@@ -63,18 +63,18 @@ ___
 
 
 
-Heading Identifiers:
-### Red text title {#identifier .red}
+---
+title: "Title"
+author: "Author"
+date: "DATE"
+output: 
+  html_document:
+     css: font-awesome-4.4.0/css/font-awesome.css
+     self_contained: no
 
-Fenced Code Attributes:
-{.red .numberLines startFrom="1"}
+---
+<i class="fa fa-renren fa-5x"></i>
 
-Inline Code Attributes:
-`red text`{.red}
-
-Bracketed Spans:
-[This is *some red text*]{.red}
-
-Link Attributes:
-![alt text](the.jpg){.center}
+To preview the correctly rendered html file, click 
+<a href="http://htmlpreview.github.io/?https://github.com/FlorianWanders/FAonGitHub/blob/master/MWE.html" title="preview on htmlpreview.github.io" target="_blank">here</a>. 
 
