@@ -20,6 +20,9 @@ indented code
 
 ```css
    // code for coloring
+    body { 
+  background: lightblue; 
+}
 ```
 
 
