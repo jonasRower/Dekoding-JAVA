@@ -87,7 +87,7 @@ To preview the correctly rendered html file, click
 </div>
 
 
-<span style="color👱‍♂️" class="note">It **works!**</span>
+<span style="color:red" class="note">It **works!**</span>
 
 It **works!**
 
