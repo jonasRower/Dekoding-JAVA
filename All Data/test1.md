@@ -102,3 +102,9 @@ To preview the correctly rendered html file, click
 
 It **works!**
 
+
+/* Light mode */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: red;
+}
+
