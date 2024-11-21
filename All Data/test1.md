@@ -108,7 +108,7 @@ It **works!**
   --md-default-bg-color: red;
 }
 
-<ol>
+<ol color="red">
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
