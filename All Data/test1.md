@@ -95,7 +95,7 @@ body {
 </style>
 
 <body>
-    <div align="center">
+    <div align="center" background-color="coral">
         It **works!**<br>
         It **works!**
     </div>
