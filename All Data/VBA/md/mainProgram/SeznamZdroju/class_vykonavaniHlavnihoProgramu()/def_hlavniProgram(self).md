@@ -36,5 +36,5 @@ self.poleRadkuN
             # data pro jeden soubor ulozi sem
             dataJednohoSouboru = startProgramu.spustProgram(adresaZdroj, zdroj)
 ```  
-              [link](../../../../../../All%20Data/VBA/md/mainProgram/NactiZdroj/class_NactiDataProJedenZdroj()/def_spustProgram(self,_adresa,_nazevSouboru).md)  
+
 
