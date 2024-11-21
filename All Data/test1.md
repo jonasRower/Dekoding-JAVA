@@ -30,8 +30,10 @@ indented code
 
 $${\color{red}wel \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
+---
 > [toto je test](../README.md)  
 > Highlights information that users should take into account, even when skimming.
+___
 
 >  [!TIP]
 > Optional information to help a user be more successful.
