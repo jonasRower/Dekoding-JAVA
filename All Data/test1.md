@@ -94,8 +94,8 @@ body {
 }
 </style>
 
-<body>
-    <div align="center" background-color="coral">
+<body background-color="coral">
+    <div align="center">
         It **works!**<br>
         It **works!**
     </div>
