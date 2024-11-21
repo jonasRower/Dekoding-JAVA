@@ -4,6 +4,6 @@
 
 indented code
 
-   // toto je kom
-   line 1
-   line 2
+    // toto je kom
+    line 1
+    line 2
