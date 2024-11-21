@@ -6,4 +6,4 @@ indented code
 
     // toto je kom
     line 1
-    line 2
+    line 2  [link](../README.md)  
