@@ -84,7 +84,7 @@ self.poleRadkuN
         self.poleRadkuN = novyJAVAKod.getPoleRadkuN()
 ```
           [link](../../../../../../All%20Data/VBA/md/mainProgram/NovyJAVAKod2/class_RoztahujData()/def_getPoleRadkuN(self).md)  
-```
+
 
 
 
