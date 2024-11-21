@@ -36,6 +36,6 @@ self.poleRadkuN
             # data pro jeden soubor ulozi sem
             dataJednohoSouboru = startProgramu.spustProgram(adresaZdroj, zdroj)
 ```
-aaa
+[link](../../../../../../All%20Data/VBA/md/mainProgram/NovyJAVAKod2/class_RoztahujData()/def_getPoleRadkuN(self).md)  
 
 
