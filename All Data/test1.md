@@ -88,12 +88,6 @@ To preview the correctly rendered html file, click
 
 
 
-<style>
-body {
-  background-color: coral;
-}
-</style>
-
 <body background-color="coral">
     <div align="center">
         It **works!**<br>
