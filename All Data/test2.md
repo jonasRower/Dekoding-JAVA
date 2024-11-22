@@ -19,3 +19,4 @@
 
 <font color='red'>test blue color font</font>
 $${\color{red}Red}$$
+$\color{color-code}{your-text-here}$
