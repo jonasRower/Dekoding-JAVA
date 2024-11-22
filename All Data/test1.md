@@ -21,6 +21,8 @@ indented code
 @@ text in purple (and bold)@@
 ```
 
+@@ text in purple (and bold)@@
+
 ```css
    // code for coloring
     body { 
