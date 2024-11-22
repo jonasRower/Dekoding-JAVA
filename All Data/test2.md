@@ -11,21 +11,10 @@
 
 
 
----
-title: "Title"
-author: "Author"
-date: "DATE"
-output: 
-  html_document:
-     css: font-awesome-4.4.0/css/font-awesome.css
-     self_contained: no
+<style>
+red { color: red }
+yellow { color: yellow }
+</style>
 
----
-<i class="fa fa-renren fa-5x"></i>
-
-To preview the correctly rendered html file, click 
-<a href="mystyle.css" target="_blank">here</a>.
-
-<span style="color:green;font-weight:700;font-size:20px">
-    markdown color font styles
-</span>
+<red> red color markdown text</red>
+<yellow> red color markdown text</yellow>
