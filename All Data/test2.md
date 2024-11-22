@@ -13,10 +13,8 @@
 <style>red { color: red }</style>
 <red>This is a paragraph.</red>
 
-
-
-<span style="color:blue">some *This is Blue italic.* text</span>
-
-<font color='red'>test blue color font</font>
-$${\color{red}Red}$$
-$\colorbox{blue}{your-text-here}$
+<pre>
+ <code>
+  <a href="https://github.com/gmarciani">gmarciani</a>
+ </code>
+</pre>
