@@ -26,23 +26,6 @@ output:
 To preview the correctly rendered html file, click 
 <a href="mystyle.css" target="_blank">here</a>.
 
-
-<style>
-.heading1 {
-    color: red;
-    font-weight:700;
-    font-size: 35px;
-}
-.heading2 {
-    color: blue;
-    font-weight:700;
-    font-size: 30px;
-}
-</style>
-
-<h1 id="identifier" class="heading1">
-    Markdown h1 styles
-</h1>
-<h2 id="identifier" class="heading2">
-    Markdown h2 styles
-</h2>
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
