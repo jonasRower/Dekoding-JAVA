@@ -18,3 +18,4 @@
 <span style="color:blue">some *This is Blue italic.* text</span>
 
 <font color='red'>test blue color font</font>
+$${\color{red}Red}$$
