@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="<source-link>" />
+<link rel="stylesheet" href="mystyle.css">
 
 <h1>My First CSS Example</h1>
 <p>This is a paragraph.</p>
