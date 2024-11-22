@@ -16,9 +16,13 @@
 
 
 <style>
-red { color: red }
-yellow { color: yellow }
+r { color: Red }
+o { color: Orange }
+g { color: Green }
 </style>
 
-<red> red color markdown text</red>
-<yellow> red color markdown text</yellow>
+# TODOs:
+
+- <r>TODO:</r> Important thing to do
+- <o>TODO:</o> Less important thing to do
+- <g>DONE:</g> Breath deeply and improve karma
