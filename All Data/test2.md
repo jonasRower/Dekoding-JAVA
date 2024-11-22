@@ -9,6 +9,8 @@
   It **works!**
 </div>
 
+
+<style>red { color: red }</style>
 <red>This is a paragraph.</red>
 
 
