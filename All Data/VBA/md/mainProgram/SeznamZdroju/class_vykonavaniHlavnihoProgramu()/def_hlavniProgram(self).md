@@ -36,7 +36,7 @@ dataJednohoSouboru
               <a href="../../../../../../All%20Data/VBA/md/mainProgram\NactiZdroj\class_NactiDataProJedenZdroj()\def spustProgram(self, adresa, nazevSouboru)">dataJednohoSouboru=startProgramu.spustProgram(adresaZdroj,zdroj)</a>
 
             # do kazdeho souboru dopise (dodatecne) jeste nazvy trid, na radcich s konstruktory
-              <a href="../../../../../All%20Data/VBA/md/mainProgram\SeznamZdroju\class_vykonavaniHlavnihoProgramu()\def doplnVolanouTriduKeKonstruktoru(self, dataJednohoSouboru)">dataJednohoSouboru=self.doplnVolanouTriduKeKonstruktoru(dataJednohoSouboru)</a>
+              <a href="../../../../../../../All%20Data/VBA/md/mainProgram\SeznamZdroju\class_vykonavaniHlavnihoProgramu()\def doplnVolanouTriduKeKonstruktoru(self, dataJednohoSouboru)">dataJednohoSouboru=self.doplnVolanouTriduKeKonstruktoru(dataJednohoSouboru)</a>
 
             # jednotlive se pridavaji data soubor po souboru
             dataVsechSouboru.append(dataJednohoSouboru)
