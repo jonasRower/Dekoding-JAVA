@@ -66,7 +66,7 @@ dataJednohoSouboru
 
  
 ### This method is called from:
-<a href="../../../../../../All%20Data//VBA/md/log/generujLog/class_loguData/def___init__(self,nazevSouboru,dataKTisku,opravitData).md". >Dekoding-JAVA/All Data/VBA/md/log/generujLog/class_loguData/def___init__(self,nazevSouboru,dataKTisku,opravitData).md/<a>
+<a href="../../../../../../All%20Data//VBA/md/log/generujLog/class_loguData/def___init__(self,nazevSouboru,dataKTisku,opravitData).md">Dekoding-JAVA/All Data/VBA/md/log/generujLog/class_loguData/def___init__(self,nazevSouboru,dataKTisku,opravitData).md/<a>
 
 
 
