@@ -60,8 +60,8 @@ dataJednohoSouboru
           <a href="../../../../../../All%20Data/VBA/md/mainProgram/NovyJAVAKod2/class_RoztahujData()/def_hlavni(self).md">novyJAVAKod.hlavni()</a>
 
           <a href="../../../../../../All%20Data/VBA/md/mainProgram/NovyJAVAKod2/class_RoztahujData()/def_getPoleRadkuN(self).md">self.poleRadkuN=novyJAVAKod.getPoleRadkuN()</a>
- /<code>
-/<pre>
+ </code>
+</pre>
 
 
  
