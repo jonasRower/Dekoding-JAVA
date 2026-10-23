@@ -1,7 +1,7 @@
 $\color{red}{\text{sel}}$<br>
 $\color{red}{\text{sele}}$<br>
 $\color{red}{\text{selec}}$<br>
-$$\color{red}{\text{Sel\0ect}}$$<br>
+$$\color{red}{\text{Sel\ect}}$$<br>
 $\color{red}{Select}$<br>
 
 $\textcolor{red}{Important}$<br>
