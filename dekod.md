@@ -6,6 +6,8 @@ $${\color{green}Red\_ble}$$
 
 my\_stock\_ticker
 
+&sec;
+
 
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
