@@ -5,4 +5,4 @@ Toto je test
 - This line is red
   This line is uncolored
 ```
-$\color{purple}{\text{Red text}}$
+$\color{#007FFF}{\text{Red text}}$
