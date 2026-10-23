@@ -1,4 +1,4 @@
-$\color{#FDEE00}{\text{select}$<br>
+$\color{#FDEE00}{\text{sel}$<br>
 
 $\color{#FDEE00}{\char"F1}$<br>
 
