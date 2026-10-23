@@ -2,7 +2,7 @@ $\color{#FDEE00}{\char{241}}$<br>
 
 $\color{blue}{\text{bleble}}$
 
-$$\color(red)Red$$
+$${\color{red}Red}$$
 
 
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
