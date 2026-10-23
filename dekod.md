@@ -1,4 +1,4 @@
-$\color{#FDEE00}{\text{}}$<br>
+$\color{#FDEE00}{\symbol{241}}$<br>
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
 $\color{#FDEE00}{\text{import java.awt.Color;}}$<br>
