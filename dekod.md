@@ -18,35 +18,35 @@ public class BarevnyJTextArea {
 &emsp;private JTextPane jTextPane3; <br>
     private boolean[][] PoleShody;
     
-    private int rPol;
+private int rPol;
     private int sPol;
     
-    private String[] DotazySQL;
+private String[] DotazySQL;
     int vyberDotazVlevo;
     
-    String[][] DataSelectuNejmensi;
+String[][] DataSelectuNejmensi;
     String[][] DataSelectuStredni;
     
-    String[] NazvySloupcu;
+String[] NazvySloupcu;
     int[] pocetZnakuVeSloupcich;
     
     
     
-    //Konstruktor
-    BarevnyJTextArea(JTextPane jTextPane1, String[] DotazySQL, int vyberDotazVlevo, boolean[] poleVyberu) throws SQLException, ClassNotFoundException {
+//Konstruktor
+BarevnyJTextArea(JTextPane jTextPane1, String[] DotazySQL, int vyberDotazVlevo, boolean[] poleVyberu) throws SQLException, ClassNotFoundException {
         
-        this.jTextPane3 = jTextPane1;
+this.jTextPane3 = jTextPane1;
         this.DotazySQL = DotazySQL;
         this.vyberDotazVlevo = vyberDotazVlevo;
         
-        boolean NejmensiSelect;
+boolean NejmensiSelect;
         boolean StredniSelect;
         boolean NejvetsiSelect;
         
-        boolean zvyraznujPolozky;
+boolean zvyraznujPolozky;
         zvyraznujPolozky = false;
         
-        NejmensiSelect = poleVyberu[0];
+NejmensiSelect = poleVyberu[0];
         StredniSelect = poleVyberu[1];
         NejvetsiSelect = poleVyberu[2];
         
