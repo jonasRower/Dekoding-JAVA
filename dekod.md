@@ -2,7 +2,7 @@ $\color{#FDEE00}{\char{241}}$<br>
 
 $\color{blue}{\text{bleble}}$
 
-$${\color{green}Red\&#0095;mm}$$
+$${\color{green}my\_stock\_ticker}$$
 
 my\_stock\_ticker
 
