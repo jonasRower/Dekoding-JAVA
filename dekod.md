@@ -18,7 +18,7 @@ $\rightarrowtail\!\!\!\!\!\rightarrow $
 
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
-$\color{#FDEE00}{\text{import java.awt.Color;}}$<br>
+$${\color{#FDEE00}import java.awt.Color;}$$<br>
 $\color{#FDEE00}{\text{import java.sql.SQLException;}}$<br>
 $\color{#FDEE00}{\text{import java.util.ArrayList;}}$<br>
 $\color{#FDEE00}{\text{import java.util.Arrays;}}$<br>
