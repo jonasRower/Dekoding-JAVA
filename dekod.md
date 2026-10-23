@@ -3,7 +3,7 @@ $\color{red}{\text{sele}}$<br>
 $\color{red}{\text{selec}}$<br>
 $$\color{red}{\text{select}}$$<br>
 
-$$\color{red}{\text{\fbox}}$$<br>
+$$\color{red}{\char{0095}}$$<br>
 
 
 
