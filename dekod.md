@@ -7,6 +7,7 @@ $${\color{green}my\char{0095}stock}$$
 my\_stock\_ticker
 
 &#0095;
+$\rightarrowtail\!\!\!\!\!\rightarrow $
 
 
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
