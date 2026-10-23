@@ -4,6 +4,8 @@ $\color{blue}{\text{bleble}}$
 
 $${\color{green}my\char{0095}stock}$$
 
+$${\color{green}my\$\rightarrowtail\!\!\!\!\!\rightarrow $}$$
+
 my\_stock\_ticker
 
 &#0095;
