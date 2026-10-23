@@ -6,7 +6,7 @@ $${\color{green}Red\_ble}$$
 
 my\_stock\_ticker
 
-&#0106;
+&#0095;
 
 
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
