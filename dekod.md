@@ -4,7 +4,7 @@ $\color{red}{\text{selec}}$<br>
 $$\color{red}{\text{select}}$$<br>
 $$\color{red}{\text{selec&#32;t}}$$<br>
 
-$$\color{red}{\fontsize{5}{6}\selectfont This is very small text.}}}$$<br>
+$$\color{red}{\fontsize{5}{6}\selectfont This is very small text.}}$$<br>
 
 
 
