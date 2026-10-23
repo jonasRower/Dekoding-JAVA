@@ -24,7 +24,7 @@ $\color{#FDEE00}{\text{&emsp;}}$<br>
 $\color{#FDEE00}{\text{&emsp;private String[] DotazySQL;}}$<br>
 $\color{#FDEE00}{\text{&emsp;int vyberDotazVlevo;}}$<br>
 $\color{#FDEE00}{\text{&emsp;}}$<br>
-$\color{#FDEE00}{\text{&emsp;String[][] DataSeletStredni;}}$<br>
+$\color{#FDEE00}{\text{&emsp;String[][] DataSelctStredni;}}$<br>
 $\color{#FDEE00}{\text{&emsp;String[][] DataSelectuStredni;}}$<br>
 $\color{#FDEE00}{\text{&emsp;}}$<br>
 $\color{#FDEE00}{\text{&emsp;String[] NazvySloupcu;}}$<br>
