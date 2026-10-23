@@ -3,7 +3,7 @@ $\color{red}{\text{sele}}$<br>
 $\color{red}{\text{selec}}$<br>
 $$\color{red}{\text{select}}$$<br>
 
-$$\color{red}{\text{\phantomuuuu}}$$<br>
+$$\color{red}{\text{\hphantomuuuu}}$$<br>
 
 
 
