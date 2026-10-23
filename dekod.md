@@ -1,6 +1,6 @@
 $\color{red}{\text{sel}}$<br>
 $\color{red}{\text{sele}}$<br>
-$\color{red}{\text{sel}}$<br>
+$\color{red}{\text{selec}}$<br>
 
 
 $\color{#FDEE00}{\char"F1}$<br>
