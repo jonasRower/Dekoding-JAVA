@@ -2,7 +2,7 @@ $\color{red}{\text{sel}}$<br>
 $\color{red}{\text{sele}}$<br>
 $\color{red}{\text{selec}}$<br>
 $\color{red}{\text{Select}}$<br>
-$\color{red}{\text{minimal}}$<br>
+$\color{red}{Select}$<br>
 
 
 $\color{#FDEE00}{\char"F1}$<br>
