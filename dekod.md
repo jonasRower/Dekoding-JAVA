@@ -4,7 +4,10 @@ $\color{blue}{\text{bleble}}$
 
 $${\color{green}my\char{0095}stock}$$
 
-$${\color{green}my\\_}$$
+public class BarevnyJTextArea
+$${\color{green}public\\_class\\_BarevnyJTextArea}$$
+
+
 
 my\_stock\_ticker
 
