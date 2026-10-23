@@ -1,6 +1,6 @@
 $\color{#FDEE00}{\text{}}$<br>
 
-$\color{#FDEE00}{\text{\char65}}$<br>
+$\color{#FDEE00}{\text{\\char65}}$<br>
 
 
 
