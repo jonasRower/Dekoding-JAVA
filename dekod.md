@@ -4,7 +4,7 @@ $\color{red}{\text{selec}}$<br>
 $$\color{red}{\text{select}}$$<br>
 $$\color{red}{\text{selec&#32;t}}$$<br>
 
-$$\color{red}{sel}$$\color{red}{\text{ect}}$$
+$$\color{red}{sel}\color{red}{\text{ect}}$$
 
 
 
