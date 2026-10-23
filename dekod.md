@@ -2,7 +2,7 @@ $\color{red}{\text{sel}}$<br>
 $\color{red}{\text{sele}}$<br>
 $\color{red}{\text{selec}}$<br>
 $$\color{red}{\text{select}}$$<br>
-$$\color{red}{\text{sel&#160;ect}}$$<br>
+$$\color{red}{\text{sel&#32;ect}}$$<br>
 
 
 
