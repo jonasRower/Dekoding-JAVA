@@ -6,6 +6,7 @@ $${\color{green}my\char{0095}stock}$$
 
 public class BarevnyJTextArea
 $${\color{green}public\\_class\\_BarevnyJTextArea}$$
+$${\color{#FDEE00}public\\_class\\_BarevnyJTextArea}$$
 
 
 
