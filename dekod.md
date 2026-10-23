@@ -15,7 +15,7 @@ import javax.swing.text.StyledDocument;
 
 public class BarevnyJTextArea { <br>
     
-    private JTextPane jTextPane3;
+    private JTextPane jTextPane3; <br>
     private boolean[][] PoleShody;
     
     private int rPol;
