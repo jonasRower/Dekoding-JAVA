@@ -1,6 +1,6 @@
 $\color{#FDEE00}{\char{241}}$<br>
 
-$\char{241}$<br>
+$\char0241$<br>
 
 
 $\color{#FDEE00}{\text{package sql  gui;}\symbol{241}}$<br>
