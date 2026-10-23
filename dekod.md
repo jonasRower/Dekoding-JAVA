@@ -4,7 +4,7 @@ $\color{blue}{\text{bleble}}$
 
 $${\color{green}my\char{0095}stock}$$
 
-$${\color{green}my\$\\_ $}$$
+$${\color{green}my\\_}$$
 
 my\_stock\_ticker
 
