@@ -13,7 +13,7 @@ $\color{#FDEE00}{\text{import javax.swing.text.StyledDocument;}}$<br>
 $\color{#FDEE00}{\text{//}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
-$\color{#FDEE00}{\text{public class BarevnyJTextArea \{}}$<br>
+$\color{#FDEE00}{\text{public class BarevnyJTextArea \\{}}$<br>
 $\color{#FDEE00}{\text{&emsp;}}$<br>
 $\color{#FDEE00}{\text{&emsp;private JTextPane jTextPane3;}}$<br>
 $\color{#FDEE00}{\text{&emsp;private boolean[][] PoleShody;}}$<br>
