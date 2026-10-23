@@ -18,8 +18,8 @@ public class BarevnyJTextArea {
 &emsp;private JTextPane jTextPane3; <br>
     private boolean[][] PoleShody; <br>
      <br>
-private int rPol;
-    private int sPol;
+private int rPol; <br>
+    private int sPol; <br>
     
 private String[] DotazySQL;
     int vyberDotazVlevo;
