@@ -4,7 +4,7 @@ $\color{red}{\text{selec}}$<br>
 $\color{red}{\text{Select}}$<br>
 $\color{red}{Select}$<br>
 
-\textcolor{red}{Important}<br>
+$\textcolor{red}{Important}$<br>
 
 
 $\color{#FDEE00}{\char"F1}$<br>
