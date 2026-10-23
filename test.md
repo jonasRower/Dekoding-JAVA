@@ -1,3 +1,7 @@
 Toto je test
 
-<span style="color:red">Red text</span>
+```diff
++ This line is green
+- This line is red
+  This line is uncolored
+```
