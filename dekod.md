@@ -1,23 +1,7 @@
-$\color{#FDEE00}{\char{241}}$<br>
-
-$\color{blue}{\text{bleble}}$
-
-$${\color{green}my\char{0095}stock}$$
-
-public class BarevnyJTextArea
-$${\color{green}public\\_class\\_BarevnyJTextArea}$$
-$${\color{#FDEE00}public\\_class\\_BarevnyJTextArea}$$
-
-
-
-my\_stock\_ticker
-
-&#0095;
-$\rightarrowtail\!\!\!\!\!\rightarrow $
-
-
-$\color{#FDEE00}{\text{package sql\\_gui;}\symbol{241}}$<br>
-${\color{#FDEE00}import java.awt.Color;}$<br>
+$\color{#FDEE00}{\text{}}$<br>
+$\color{#FDEE00}{\text{package sql\\_gui;}}$<br>
+$\color{#FDEE00}{\text{}}$<br>
+$\color{#FDEE00}{\text{import java.awt.Color;}}$<br>
 $\color{#FDEE00}{\text{import java.sql.SQLException;}}$<br>
 $\color{#FDEE00}{\text{import java.util.ArrayList;}}$<br>
 $\color{#FDEE00}{\text{import java.util.Arrays;}}$<br>
@@ -29,7 +13,7 @@ $\color{#FDEE00}{\text{import javax.swing.text.StyledDocument;}}$<br>
 $\color{#FDEE00}{\text{//}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
 $\color{#FDEE00}{\text{}}$<br>
-$\color{#FDEE00}{\text{public class BarevnyJTextArea \{ }}$<br>
+$\color{#FDEE00}{\text{public class BarevnyJTextArea \{}}$<br>
 $\color{#FDEE00}{\text{&emsp;}}$<br>
 $\color{#FDEE00}{\text{&emsp;private JTextPane jTextPane3;}}$<br>
 $\color{#FDEE00}{\text{&emsp;private boolean[][] PoleShody;}}$<br>
