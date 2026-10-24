@@ -1,8 +1,8 @@
 $$\color{red}{}$$
 $$\color{red}{package sql\\_gui;}$$
 $$\color{red}{}$$
-$$\color{red}{import java.awt.Color;}$$<br>
-$$\color{red}{import java.sql.SQLException;}$$<br>
+$$\color{red}{import java.awt.Color;}$$
+$$\color{red}{import java.sql.SQLException;}$$
 $$\color{red}{import java.util.ArrayList;}$$<br>
 $$\color{red}{import java.util.Arrays;}$$<br>
 $$\color{red}{import javax.swing.JScrollPane;}$$<br>
