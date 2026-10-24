@@ -50,6 +50,7 @@ $\color{red}{&emsp;&emsp;NejmensiSel}\color{red}{ect = poleVyberu[0];}$<br>
 $\color{red}{&emsp;&emsp;StredniSel}\color{red}{ect = poleVyberu[1];}$<br>
 $\color{red}{&emsp;&emsp;NejvetsiSel}\color{red}{ect = poleVyberu[2];}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
+$$\color{red}{sel}\color{red}{\text{ect}}$$
 $$\color{red}{pripravDataSel}\color{red}{ectuNejvetsiSelect}$$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;  }$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;  private void pripravDataSel}\color{red}{ectu(boolean NejvetsiDotaz) throws SQLException, ClassNotFoundException\\{&emsp;   }$<br>
