@@ -1,6 +1,6 @@
-$$\color{red}{}$$<br>
-$$\color{red}{package sql\\_gui;}$$<br>
-$$\color{red}{}$$<br>
+$$\color{red}{}$$
+$$\color{red}{package sql\\_gui;}$$
+$$\color{red}{}$$
 $$\color{red}{import java.awt.Color;}$$<br>
 $$\color{red}{import java.sql.SQLException;}$$<br>
 $$\color{red}{import java.util.ArrayList;}$$<br>
