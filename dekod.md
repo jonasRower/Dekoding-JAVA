@@ -1,5 +1,5 @@
-$$\color{red}{}$$
-$$\color{red}{package sql\\_gui;}$$
+$\color{red}{}$
+$\color{red}{package sql\\_gui;}$
 $$\color{red}{}$$
 $$\color{red}{import java.awt.Color;}$$
 $$\color{red}{import java.sql.SQLException;}$$
