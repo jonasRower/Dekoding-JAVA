@@ -61,7 +61,6 @@ $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  //plati pro dotaz z comboboxu - DotazVpravo}$<br>
 $\color{red}{&emsp;&emsp; -->  //&emsp;&emsp;if (vyberDotazVlevo > DotazySQL.length)\\{}$<br>
 $\color{red}{&emsp;&emsp; -->  //&emsp;&emsp;&emsp;SQL\\_GUI\\_Frame.}$<br>
-$\color{red}{&emsp;&emsp; -->  //&emsp;&emsp;\}}$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  dotazNejmensi = DotazySQL[vyberDotazVlevo];}$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  dotazStredni = vratSel}\color{red}{ectyNaVetsiDotaz(dotazNejmensi, NejvetsiDotaz);}$<br>
