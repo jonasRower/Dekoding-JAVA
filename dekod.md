@@ -279,9 +279,9 @@ $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;boolean nalezenaShoda;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//Kontroluje ktere pole je vetsi}$<br>
-$\color{red}{&emsp;&emsp;JeDelsiDataSel}\color{red}{ectu2 = delsidatasel}\color{red}{ectu2(dataselectu1, dataselectu2);}$<br>
+$\color{red}{&emsp;&emsp;JeDelsiDataSel}\color{red}{ectu2 = delsidatasel}\color{red}{ectu2(datasel}\color{red}{ectu1, datasel}\color{red}{ectu2);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;  private boolean DelsiDataSel}\color{red}{ectu2(string[][] datasel}\color{red}{ectu1, string[][] dataselectu2)\\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;  private boolean DelsiDataSel}\color{red}{ectu2(string[][] datasel}\color{red}{ectu1, string[][] datasel}\color{red}{ectu2)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  //obe pole jsou stejne velke, ale to mensi obsahuje null hodnoty}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  //metoda zjisti ve kterem poli je vice null}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
@@ -396,7 +396,7 @@ $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  boolean shodaMVData;}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  for (int rV = 0; rV < vetsiDataSel}\color{red}{ectu.length; rV++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  //vrati dany radek vetsich Dat Sel}\color{red}{ectu&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  vetsiDataSel}\color{red}{ecturadek = vratvetsidatasel}\color{red}{ecturadek(poleshody, vetsidataselectu, rv);}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  vetsiDataSel}\color{red}{ecturadek = vratvetsidatasel}\color{red}{ecturadek(poleshody, vetsidatasel}\color{red}{ectu, rv);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  //metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  private String[] vratVetsiDataSel}\color{red}{ecturadek(boolean[][] poleshody, string[][] vetsidatasel}\color{red}{ectu, int radek)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
@@ -414,7 +414,7 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->   }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidataselectulist.size()]);}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidatasel}\color{red}{ectulist.size()]);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  return (radekVetsiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
@@ -425,7 +425,7 @@ $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  shodaMVData = true; //def
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  //vetsi radek porovnava se vsemi radky z mensich dat}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  for (int rM = 0; rM < mensiDataSel}\color{red}{ectu.length; rM++) \\{}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  mensiDataSel}\color{red}{ecturadek = vratmensidatasel}\color{red}{ecturadek(mensidataselectu, rm);}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  mensiDataSel}\color{red}{ecturadek = vratmensidatasel}\color{red}{ecturadek(mensidatasel}\color{red}{ectu, rm);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  //metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  private String[] vratMensiDataSel}\color{red}{ecturadek(string[][] mensidatasel}\color{red}{ectu, int radek)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
@@ -530,7 +530,7 @@ $\color{red}{&emsp;&emsp;boolean shodaMVData;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;for (int rV = 0; rV < vetsiDataSel}\color{red}{ectu.length; rV++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;//vrati dany radek vetsich Dat Sel}\color{red}{ectu&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;vetsiDataSel}\color{red}{ecturadek = vratvetsidatasel}\color{red}{ecturadek(poleshody, vetsidataselectu, rv);}$<br>
+$\color{red}{&emsp;&emsp;&emsp;vetsiDataSel}\color{red}{ecturadek = vratvetsidatasel}\color{red}{ecturadek(poleshody, vetsidatasel}\color{red}{ectu, rv);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;  //metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;  private String[] vratVetsiDataSel}\color{red}{ecturadek(boolean[][] poleshody, string[][] vetsidatasel}\color{red}{ectu, int radek)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  }$<br>
@@ -548,7 +548,7 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->   }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidataselectulist.size()]);}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidatasel}\color{red}{ectulist.size()]);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  return (radekVetsiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  }$<br>
@@ -559,7 +559,7 @@ $\color{red}{&emsp;&emsp;&emsp;shodaMVData = true; //defaultne na true, pokud je
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;//vetsi radek porovnava se vsemi radky z mensich dat}$<br>
 $\color{red}{&emsp;&emsp;&emsp;for (int rM = 0; rM < mensiDataSel}\color{red}{ectu.length; rM++) \\{}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;mensiDataSel}\color{red}{ecturadek = vratmensidatasel}\color{red}{ecturadek(mensidataselectu, rm);}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;mensiDataSel}\color{red}{ecturadek = vratmensidatasel}\color{red}{ecturadek(mensidatasel}\color{red}{ectu, rm);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  //metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  private String[] vratMensiDataSel}\color{red}{ecturadek(string[][] mensidatasel}\color{red}{ectu, int radek)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
@@ -656,7 +656,7 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp; -->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{ }$<br>
-$\color{red}{&emsp;&emsp;radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidataselectulist.size()]);}$<br>
+$\color{red}{&emsp;&emsp;radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidatasel}\color{red}{ectulist.size()]);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->  }$<br>
 $\color{red}{&emsp;&emsp;return (radekVetsiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
@@ -861,7 +861,7 @@ $\color{red}{}$<br>
 $\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;private boolean DelsiDataSel}\color{red}{ectu2(string[][] datasel}\color{red}{ectu1, string[][] dataselectu2)\\{}$<br>
+$\color{red}{&emsp;private boolean DelsiDataSel}\color{red}{ectu2(string[][] datasel}\color{red}{ectu1, string[][] datasel}\color{red}{ectu2)\\{}$<br>
 $\color{red}{&emsp;&emsp;//obe pole jsou stejne velke, ale to mensi obsahuje null hodnoty}$<br>
 $\color{red}{&emsp;&emsp;//metoda zjisti ve kterem poli je vice null}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
