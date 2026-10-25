@@ -84,9 +84,9 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  castZaFrom = orig
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  if (NejvetsiDotaz == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;  castPredFrom = "SEL}\color{red}{ECT * ";}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  } else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  \\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;  castPredFrom = originalniSel}\color{red}{ect.substring(0, indexOfFROM);}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  //Vytvori Sel}\color{red}{ect a pripravi data}$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  Sel}\color{red}{ect selnejmensi = new sel}\color{red}{ect(dotaznejmensi);}$<br>
@@ -128,45 +128,45 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;&emsp;  pocetZnakuHodnoty = Hodnota.length();}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;&emsp;  if (pocetZnakuHodnoty > nejvicPocetZnakuHodnoty)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;&emsp;&emsp;  nejvicPocetZnakuHodnoty = pocetZnakuHodnoty;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  return nejvicPocetZnakuHodnoty;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;&emsp;&emsp;  pocetZnakuVeSloupcich[s] = pocetZnaku;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;&emsp;  return (pocetZnakuVeSloupcich);}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  String HlavickaStr;}$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  HlavickaStr = vratStringHlavicky();}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;  -->  }$<br>
 $\color{red}{&emsp;&emsp; -->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp; -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp; -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//vykresli barevny text v zavislosti na druhu vyberu}$<br>
 $\color{red}{&emsp;&emsp;if (NejmensiSel}\color{red}{ect == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;vratBarevnyText(DataSel}\color{red}{ectuNejmensi, false);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;  -->  }$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;if (StredniSel}\color{red}{ect == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;PoleShody = vratPoleShody(DataSel}\color{red}{ectustredni, datasel}\color{red}{ectunejmensi);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;-->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;vratBarevnyText(DataSel}\color{red}{ectuStredni, true);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;  -->  }$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;if (NejvetsiSel}\color{red}{ect == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;//pole se jmenuji stejne jako u stredniho sel}\color{red}{ectu (datasel}\color{red}{ectustredniho obsahuji data nejvetsi)}$<br>
 $\color{red}{&emsp;&emsp;&emsp;PoleShody = vratPoleShody(DataSel}\color{red}{ectustredni, datasel}\color{red}{ectunejmensi);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;-->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;vratBarevnyText(DataSel}\color{red}{ectuStredni, true);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;  -->  }$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;private void pripravDataSel}\color{red}{ectu(boolean NejvetsiDotaz) throws SQLException, ClassNotFoundException\\{&emsp;   }$<br>
@@ -178,7 +178,7 @@ $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//plati pro dotaz z comboboxu - DotazVpravo}$<br>
 $\color{red}{//&emsp;&emsp;if (vyberDotazVlevo > DotazySQL.length)\\{}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;SQL\\_GUI\\_Frame.}$<br>
-$\color{red}{//&emsp;&emsp;}}$<br>
+$\color{red}{//&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;dotazNejmensi = DotazySQL[vyberDotazVlevo];}$<br>
 $\color{red}{&emsp;&emsp;dotazStredni = vratSel}\color{red}{ectyNaVetsiDotaz(dotazNejmensi, NejvetsiDotaz);}$<br>
@@ -201,9 +201,9 @@ $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  castZaFrom = originalniSel}\colo
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  if (NejvetsiDotaz == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  castPredFrom = "SEL}\color{red}{ECT * ";}$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  } else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  castPredFrom = originalniSel}\color{red}{ect.substring(0, indexOfFROM);}$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//Vytvori Sel}\color{red}{ect a pripravi data}$<br>
 $\color{red}{&emsp;&emsp;Sel}\color{red}{ect selnejmensi = new sel}\color{red}{ect(dotaznejmensi);}$<br>
@@ -245,24 +245,24 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  pocetZnakuHodnoty = Hodnota.length();}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  if (pocetZnakuHodnoty > nejvicPocetZnakuHodnoty)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;  nejvicPocetZnakuHodnoty = pocetZnakuHodnoty;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  return nejvicPocetZnakuHodnoty;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;   -->&emsp;&emsp;&emsp;  pocetZnakuVeSloupcich[s] = pocetZnaku;}$<br>
-$\color{red}{&emsp;&emsp;   -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;   -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;   -->&emsp;&emsp;  return (pocetZnakuVeSloupcich);}$<br>
-$\color{red}{&emsp;&emsp;   -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;   -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;String HlavickaStr;}$<br>
 $\color{red}{&emsp;&emsp;HlavickaStr = vratStringHlavicky();}$<br>
 $\color{red}{&emsp;&emsp;   -->  }$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;//pretizeny kontstruktor - zatim docasne}$<br>
@@ -297,26 +297,26 @@ $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  for (int i = 0; i < DataSel}\col
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  if (DataSel}\color{red}{ectu1[i] == null)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  pocetNullDataSel}\color{red}{ectu1 = pocetnulldatasel}\color{red}{ectu1 + 1;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  if (DataSel}\color{red}{ectu2[i] == null)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  pocetNullDataSel}\color{red}{ectu2 = pocetnulldatasel}\color{red}{ectu2 + 1;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  if (pocetNullDataSel}\color{red}{ectu2 > pocetnulldatasel}\color{red}{ectu1)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  jeDelsiDataSel}\color{red}{ectu2 = true;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  } else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  jeDelsiDataSel}\color{red}{ectu2 = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;if (JeDelsiDataSel}\color{red}{ectu2 == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;vetsiDataSel}\color{red}{ectu = datasel}\color{red}{ectu2;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;mensiDataSel}\color{red}{ectu = datasel}\color{red}{ectu1;}$<br>
-$\color{red}{&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;vetsiDataSel}\color{red}{ectu = datasel}\color{red}{ectu1;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;mensiDataSel}\color{red}{ectu = datasel}\color{red}{ectu2;}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;poleShody = new boolean[vetsiDataSel}\color{red}{ectu.length][vetsidatasel}\color{red}{ectu[0].length];}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
@@ -339,7 +339,7 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  for (int s = 0; s < Pole[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  if(nalezenaShoda == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;  break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  for (int r = 0; r < Pole.length; r++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;  polozkaPole = Pole[r][s];}$<br>
@@ -351,23 +351,23 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&ems
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  sPol = s;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  nalezenaShoda = true;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  return (nalezenaShoda);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;//zapisuje nalezene shody do pole}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;poleShody[r][s] = nalezenaShoda;}$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;System.out.println(rPol + "  " + sPol);}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//prekontroluje pole shody, protoze nektere polozky mohou byt spatne oznacene}$<br>
 $\color{red}{&emsp;&emsp;poleShody = prekontrolujPoleShody(poleShody, mensiDataSel}\color{red}{ectu, vetsidatasel}\color{red}{ectu);}$<br>
@@ -389,8 +389,8 @@ $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  boolean[][] poleShodyNew = new 
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  for (int r = 0; r < poleShodyNew.length; r++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  for (int s = 0; s < poleShodyNew[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  poleShodyNew[r][s] = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  }&emsp;  }$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  \\}&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  boolean shodaMVData;}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;  }$<br>
@@ -411,14 +411,14 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&ems
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  vetsiDataSel}\color{red}{ectuhodnota = vetsidatasel}\color{red}{ectu[radek][s];}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectulist.add(vetsidatasel}\color{red}{ectuhodnota);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidataselectulist.size()]);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  return (radekVetsiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  delkaVetsiDataSel}\color{red}{ecturadek = vetsidatasel}\color{red}{ecturadek.length;}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  shodaMVData = true; //defaultne na true, pokud je neshoda, prenastavi se}$<br>
@@ -436,11 +436,11 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp; 
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  for (int s = 0; s < pocetSloupcu; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;  radekMensiDataSel}\color{red}{ectu[s] = mensidatasel}\color{red}{ectu[radek][s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  return (radekMensiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  //nejdrive porovna jejich delku, zda jsou stejne dlouhe}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  delkaMensiDataSel}\color{red}{ecturadek = mensidatasel}\color{red}{ecturadek.length;}$<br>
@@ -459,13 +459,13 @@ $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  /
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  if (mensiDataSel}\color{red}{ectuhodnota.equals(vetsidatasel}\color{red}{ectuhodnota) == false)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  shodaMVData = false;}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  } else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  \\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  shodaMVData = false;}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  //pokud nalezne shodu, pak "preplacne" poleShodyNew aktualnim radkem s booleans}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  //musi preplacnout, protoze ne vsechny sloupce jsou true, nektere mohou zustat false}$<br>
@@ -483,27 +483,27 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;   for (int s = 0; s < pocetSloupcu; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;&emsp;  radekPoleShody[s] = poleShody[radek][s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  return (radekPoleShody);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  for (int s = 0; s < poleShody[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  poleShodyNew[rV][s] = poleShodyRadek[s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  } }$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  \\} }$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  } else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  \\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  //pokud radky vetsich a mensich dat jsou ruzne dlouhe - neni co resit}$<br>
 $\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;&emsp;  shodaMVData = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//this.vetsiDataSel}\color{red}{ectu = vetsidatasel}\color{red}{ectu;}$<br>
 $\color{red}{&emsp;&emsp;return(poleShody);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;private boolean[][] prekontrolujPoleShody(boolean[][] poleShody, String[][] mensiDataSel}\color{red}{ectu, string[][] vetsidatasel}\color{red}{ectu)\\{}$<br>
@@ -523,8 +523,8 @@ $\color{red}{&emsp;&emsp;boolean[][] poleShodyNew = new boolean[poleShody.length
 $\color{red}{&emsp;&emsp;for (int r = 0; r < poleShodyNew.length; r++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;for (int s = 0; s < poleShodyNew[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;poleShodyNew[r][s] = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}&emsp;  }$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;boolean shodaMVData;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
@@ -545,14 +545,14 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  if (shoda == true)\
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  vetsiDataSel}\color{red}{ectuhodnota = vetsidatasel}\color{red}{ectu[radek][s];}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectulist.add(vetsidatasel}\color{red}{ectuhodnota);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  }}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;&emsp;  \\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidataselectulist.size()]);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -->  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  return (radekVetsiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp; -->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;delkaVetsiDataSel}\color{red}{ecturadek = vetsidatasel}\color{red}{ecturadek.length;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;shodaMVData = true; //defaultne na true, pokud je neshoda, prenastavi se}$<br>
@@ -570,11 +570,11 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  String[] radekMensiD
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  for (int s = 0; s < pocetSloupcu; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  radekMensiDataSel}\color{red}{ectu[s] = mensidatasel}\color{red}{ectu[radek][s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  return (radekMensiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;//nejdrive porovna jejich delku, zda jsou stejne dlouhe}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;delkaMensiDataSel}\color{red}{ecturadek = mensidatasel}\color{red}{ecturadek.length;}$<br>
@@ -593,13 +593,13 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;//pokud jsou hodnoty stej
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;if (mensiDataSel}\color{red}{ectuhodnota.equals(vetsidatasel}\color{red}{ectuhodnota) == false)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shodaMVData = false;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shodaMVData = false;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//pokud nalezne shodu, pak "preplacne" poleShodyNew aktualnim radkem s booleans}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//musi preplacnout, protoze ne vsechny sloupce jsou true, nektere mohou zustat false}$<br>
@@ -617,27 +617,27 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  bo
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;   for (int s = 0; s < pocetSloupcu; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;&emsp;  radekPoleShody[s] = poleShody[radek][s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  \\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  return (radekPoleShody);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;&emsp;  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  }}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->&emsp;  \\}}$<br>
 $\color{red}{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;for (int s = 0; s < poleShody[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;poleShodyNew[rV][s] = poleShodyRadek[s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;} }$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\} }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//pokud radky vetsich a mensich dat jsou ruzne dlouhe - neni co resit}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;shodaMVData = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return (poleShodyNew);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;//metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;private String[] vratVetsiDataSel}\color{red}{ecturadek(boolean[][] poleshody, string[][] vetsidatasel}\color{red}{ectu, int radek)\\{}$<br>
@@ -653,14 +653,14 @@ $\color{red}{&emsp;&emsp;&emsp;if (shoda == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;vetsiDataSel}\color{red}{ectuhodnota = vetsidatasel}\color{red}{ectu[radek][s];}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;radekVetsiDataSel}\color{red}{ectulist.add(vetsidatasel}\color{red}{ectuhodnota);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; -->  }$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{ }$<br>
 $\color{red}{&emsp;&emsp;radekVetsiDataSel}\color{red}{ectu = radekvetsidatasel}\color{red}{ectulist.toarray(new string[radekvetsidataselectulist.size()]);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;-->  }$<br>
 $\color{red}{&emsp;&emsp;return (radekVetsiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;//metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;private String[] vratMensiDataSel}\color{red}{ecturadek(string[][] mensidatasel}\color{red}{ectu, int radek)\\{}$<br>
@@ -672,11 +672,11 @@ $\color{red}{&emsp;&emsp;String[] radekMensiDataSel}\color{red}{ectu = new Strin
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;for (int s = 0; s < pocetSloupcu; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;radekMensiDataSel}\color{red}{ectu[s] = mensidatasel}\color{red}{ectu[radek][s];}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return (radekMensiDataSel}\color{red}{ectu);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;  }$<br>
 $\color{red}{&emsp;//metoda volana z prekontrolujPoleShody}$<br>
 $\color{red}{&emsp;private boolean[] vratPoleShodyRadek(boolean[][] poleShody, int radek)\\{}$<br>
@@ -688,11 +688,11 @@ $\color{red}{&emsp;&emsp;boolean[] radekPoleShody = new boolean[pocetSloupcu];}$
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp; for (int s = 0; s < pocetSloupcu; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;radekPoleShody[s] = poleShody[radek][s];}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp; }$<br>
 $\color{red}{&emsp;&emsp;return (radekPoleShody);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
@@ -736,7 +736,7 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;//v okamziku, kdy shodny radek byl jiz nalezen}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;if (shodnyRadekNalezen == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;//vyhledava, kde je shoda == true v 0-tem sloupci}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;shoda0 = poleShody[rV][0];}$<br>
@@ -761,30 +761,30 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;//pokud nejaka hodn
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;//pak se nastavi na false a dal uz se nepokracuje}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shodnyRadek = false;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shodnyRadek = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//(shoda0 == false) }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//shodnyRadek = false muze nabit hodnoty(false) vicero zpusoby}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;shodnyRadek = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;if (shodnyRadek == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;shodnyRadekNalezen = true;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;posledniRV = rV + 1;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;if (shodnyRadek == false)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;for (int s = 0; s < poleShody[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;poleShody[rV][s] = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;   }$<br>
 $\color{red}{//&emsp;&emsp;&emsp;&emsp;for (int s = 0; s < mensiDataSel}\color{red}{ectu[0].length; s++) \\{}$<br>
@@ -798,10 +798,10 @@ $\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;if (mensiDataSel}\color{red}{
 $\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;  //  if (mensiDataSel}\color{red}{ectuhodnota != vetsidatasel}\color{red}{ecthodnota)\\{}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shodnyRadek = false;}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{//&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{//&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;int d = poleShody[0].length;}$<br>
 $\color{red}{}$<br>
@@ -812,11 +812,11 @@ $\color{red}{&emsp;&emsp;&emsp;//(to je taky cilem opravy, jelikoz v puvodnim po
 $\color{red}{//&emsp;&emsp;&emsp;if (shodnyRadek == false)\\{}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;&emsp;for (int s = 0; s < poleShody[0].length; s++) \\{}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;&emsp;&emsp;poleShody[r][s] = false;}$<br>
-$\color{red}{//&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{//&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{//&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{//&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{//&emsp;&emsp;&emsp;d = poleShody[0].length;}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;public JTextPane getBarevnyText()\\{}$<br>
@@ -824,7 +824,7 @@ $\color{red}{&emsp;//public JScrollPane getBarevnyText()\\{&emsp;}$<br>
 $\color{red}{&emsp;&emsp;//return (jTextPane1);}$<br>
 $\color{red}{&emsp;&emsp;//return (jTextPane2);}$<br>
 $\color{red}{&emsp;&emsp;return (jTextPane3);}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;private boolean vratRadekASloupecNalezenePolozkyVPoli(String[][] Pole, String HledanaPolozka)\\{}$<br>
@@ -837,7 +837,7 @@ $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;for (int s = 0; s < Pole[0].length; s++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;if(nalezenaShoda == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;for (int r = 0; r < Pole.length; r++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;polozkaPole = Pole[r][s];}$<br>
@@ -849,16 +849,16 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;rPol = r;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;sPol = s;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nalezenaShoda = true;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return (nalezenaShoda);}$<br>
 $\color{red}{}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;private boolean DelsiDataSel}\color{red}{ectu2(string[][] datasel}\color{red}{ectu1, string[][] dataselectu2)\\{}$<br>
@@ -877,22 +877,22 @@ $\color{red}{&emsp;&emsp;for (int i = 0; i < DataSel}\color{red}{ectu1.length; i
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;if (DataSel}\color{red}{ectu1[i] == null)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;pocetNullDataSel}\color{red}{ectu1 = pocetnulldatasel}\color{red}{ectu1 + 1;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;if (DataSel}\color{red}{ectu2[i] == null)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;pocetNullDataSel}\color{red}{ectu2 = pocetnulldatasel}\color{red}{ectu2 + 1;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;if (pocetNullDataSel}\color{red}{ectu2 > pocetnulldatasel}\color{red}{ectu1)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;jeDelsiDataSel}\color{red}{ectu2 = true;}$<br>
-$\color{red}{&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;jeDelsiDataSel}\color{red}{ectu2 = false;}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return (jeDelsiDataSel}\color{red}{ectu2);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp; private String vratStringHlavicky()\\{}$<br>
@@ -911,10 +911,10 @@ $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;ZbyvajiciMezery = doplnZbyvajiciMezery(pocetZnakuVeSloupci, NazevSloupce);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;HlavickaStr = HlavickaStr + "  " + ZbyvajiciMezery;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return(HlavickaStr);}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp;private String doplnZbyvajiciMezery(int pocetZnakuSloupce, String Hodnota)}$<br>
@@ -930,17 +930,17 @@ $\color{red}{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;//doplni retezec o mezery}$<br>
 $\color{red}{&emsp;&emsp;&emsp;for (int i = 0; i < pocetZnakuMezer; i++) \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp; ZbyvajiciMezery = ZbyvajiciMezery + " "; }$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;} }$<br>
+$\color{red}{&emsp;&emsp;\\} }$<br>
 $\color{red}{&emsp;&emsp;else}$<br>
 $\color{red}{&emsp;&emsp;\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;ZbyvajiciMezery = "";}$<br>
-$\color{red}{&emsp;&emsp;}&emsp;}$<br>
+$\color{red}{&emsp;&emsp;\\}&emsp;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return (ZbyvajiciMezery);}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp;private int[] vratPocetZnakuProVsechnySloupce()}$<br>
@@ -953,10 +953,10 @@ $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;for (int s = 0; s < pocetSloupcu; s++)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;pocetZnaku = vratPocetZnakuProDanySloupec(s);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;pocetZnakuVeSloupcich[s] = pocetZnaku;}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return (pocetZnakuVeSloupcich);}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp; }$<br>
 $\color{red}{&emsp;private int vratPocetZnakuProDanySloupec(int sloupec)}$<br>
@@ -977,13 +977,13 @@ $\color{red}{&emsp;&emsp;&emsp;\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;pocetZnakuHodnoty = Hodnota.length();}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;if (pocetZnakuHodnoty > nejvicPocetZnakuHodnoty)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;nejvicPocetZnakuHodnoty = pocetZnakuHodnoty;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return nejvicPocetZnakuHodnoty;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
@@ -1026,18 +1026,18 @@ $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;if (r == -1)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//jedna se o hlavicku&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shoda = false;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;hodnota = NazvySloupcu[s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//jedna se o tabulku&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;//Zvyraznuje polozky jeb v pripade, pokud zvyraznujPolozky == true}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;if (zvyraznujPolozky == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shoda = PoleShody[r][s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;shoda = false;}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;hodnota = DataSel}\color{red}{ectu[r][s];}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;delkaDoc = doc.getLength();}$<br>
 $\color{red}{}$<br>
@@ -1049,24 +1049,24 @@ $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//oznaci danou bunku v zavislosti na tom, zda nalezl shodu ci nikoliv}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;if (shoda == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;doc.insertString(doc.getLength(), hodnotaM, keyWord );}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;doc.insertString(doc.getLength(), hodnotaM, null );}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}  }$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}  }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;if (r == -1)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//za hlavicku vlozi prazdny radek + novy rasek   }$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;doc.insertString(doc.getLength(), "\n\n", null );}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;//janak vklada pouze novy radek}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;&emsp;doc.insertString(doc.getLength(), "\n", null );}$<br>
-$\color{red}{&emsp;&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;&emsp;catch(Exception e) \\{ System.out.println(e); }}$<br>
+$\color{red}{&emsp;&emsp;catch(Exception e) \\{ System.out.println(e); \\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;//pokud je NejvetsiDotaz = true, pak vraci nejvetsi dotaz, jinak stredni dotaz}$<br>
@@ -1089,9 +1089,9 @@ $\color{red}{&emsp;&emsp;castZaFrom = originalniSel}\color{red}{ect.substring(in
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;if (NejvetsiDotaz == true)\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;castPredFrom = "SEL}\color{red}{ECT * ";}$<br>
-$\color{red}{&emsp;&emsp;} else \\{}$<br>
+$\color{red}{&emsp;&emsp;\\} else \\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;castPredFrom = originalniSel}\color{red}{ect.substring(0, indexOfFROM);}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;   }$<br>
 $\color{red}{&emsp;&emsp;castZaFromArr = castZaFrom.split(" ");}$<br>
 $\color{red}{&emsp;&emsp;NazevTabulky = castZaFromArr[1];}$<br>
@@ -1099,14 +1099,14 @@ $\color{red}{&emsp;&emsp;stringArr = NazevTabulky.split("\n");}$<br>
 $\color{red}{&emsp;&emsp;if (stringArr.length > 0)}$<br>
 $\color{red}{&emsp;&emsp;\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;NazevTabulky = stringArr[0];}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;plnySel}\color{red}{ect = castPredFrom + "FROM " + NazevTabulky;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;}$<br>
 $\color{red}{&emsp;&emsp;return(plnySel}\color{red}{ect);}$<br>
 $\color{red}{&emsp;&emsp;&emsp;&emsp;}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
 $\color{red}{&emsp;}$<br>
@@ -1140,10 +1140,10 @@ $\color{red}{&emsp;&emsp;try}$<br>
 $\color{red}{&emsp;&emsp;\\{}$<br>
 $\color{red}{&emsp;&emsp;&emsp;doc.insertString(0, "Start of text\n", null );}$<br>
 $\color{red}{&emsp;&emsp;&emsp;doc.insertString(doc.getLength(), "\nEnd of text", keyWord );}$<br>
-$\color{red}{&emsp;&emsp;}}$<br>
-$\color{red}{&emsp;&emsp;catch(Exception e) \\{ System.out.println(e); }}$<br>
+$\color{red}{&emsp;&emsp;\\}}$<br>
+$\color{red}{&emsp;&emsp;catch(Exception e) \\{ System.out.println(e); \\}}$<br>
 $\color{red}{&emsp;   }$<br>
 $\color{red}{}$<br>
-$\color{red}{&emsp;}}$<br>
+$\color{red}{&emsp;\\}}$<br>
 $\color{red}{}$<br>
-$\color{red}{}}$<br>
+$\color{red}{\\}}$<br>
